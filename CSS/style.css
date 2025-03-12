@@ -1,0 +1,5534 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* ==============custom scrollbar=========== */
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #FFFFFF;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(218,0,36);
+}
+
+.fonts{
+    font-family: "Montserrat", serif;
+    font-family: "Poppins", serif;
+    font-family: "Anton", serif;
+    font-family: "Open Sans", serif;
+    font-family: "Inter", serif;
+    font-family: "Oswald", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Pacifico", serif;
+    font-family: "Berkshire Swash", serif;
+    font-family: "Roboto", serif;
+    font-family: "Roboto Condensed", serif;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(40,40,40,1);
+    font-family: "Poppins", serif;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+.container-fluid{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col100{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+}
+
+.col60{
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding: 0 15px;
+}
+
+.col55{
+    max-width: 55%;
+    flex: 0 0 55%;
+    padding: 0 15px;
+}
+
+.col50{
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+
+.col45{
+    max-width: 45%;
+    flex: 0 0 45%;
+    padding: 0 15px;
+}
+
+.col40{
+    max-width: 40%;
+    flex: 0 0 40%;
+    padding: 0 15px;
+}
+
+
+.col33{
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+    padding: 0 15px;
+}
+
+.col30{
+    max-width: 30%;
+    flex: 0 0 30%;
+    padding: 0 15px;
+}
+
+.col25{
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 15px;
+}
+
+.col20{
+    max-width: 20%;
+    flex: 0 0 20%;
+    padding: 0 15px;
+}
+
+
+
+.header-top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+/* ----- start of nav-top ----- */
+
+.nav-top{
+  background-color: black;
+  padding: 10px 0;
+}
+
+.nav-top .container .nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-box .nav-top-box{
+    display: flex;
+    align-items: center;
+}
+
+.nav-box .nav-top-social-icons{
+    display: flex;
+    align-items: center;
+    padding-right: 28px;
+}
+
+.nav-box .nav-top-social-icons .call a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", serif;
+    display: inline-block;
+}
+
+.nav-box .nav-top-social-icons .call a i{
+    margin-right: 10px;
+}
+
+.nav-box .nav-top-social-icons .number-call{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.nav-box .nav-top-social-icons .email a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", serif;
+    display: inline-block;
+}
+
+.nav-box .nav-top-social-icons .email a i{
+    margin-right: 10px;
+}
+
+.nav-box .nav-top-social-icons .email-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", serif;
+}
+
+.nav-box .nav-top-form-icons{
+    display: flex;
+    align-items: center;
+}
+
+.nav-box .nav-top-form-icons .form{
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav-box .nav-top-form-icons .form .form-input{
+    max-width: 90%;
+    flex: 0 0 90%;
+}
+
+.nav-box .nav-top-form-icons .form .form-input input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: red;
+    font-family: "Poppins", serif;
+}
+
+
+.nav-box .nav-top-form-icons .form .form-search{
+    max-width: 10%;
+    flex: 0 0 10%;
+}
+
+.nav-box .nav-top-form-icons .user i{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px;
+}
+
+/* ------ end of nav-top ---------- */
+/* ------- start of navbar ------- */
+
+.navbar{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 10px 0;
+}
+
+.navbar .container .nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar .container .nav-box .nav-logo a{
+  display: block;
+  max-width: 60px;
+  width: 100%;
+}
+
+
+.navbar .container .nav-box .nav-logo a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar .container .nav-box .menu-top .nav-menu{
+    display: flex;
+}
+
+    .navbar .container .nav-box .menu-top .nav-menu li{
+    padding-right: 36px;
+    }
+
+.navbar .container .nav-box .menu-top .nav-menu li:nth-last-child(1){
+    padding-right: 0;
+} 
+
+.navbar .container .nav-box .menu-top .nav-menu li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    font-family: "Poppins", serif;
+}
+
+.navbar .container .nav-box .menu-top .nav-menu li a:after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    top: 28px;
+    position: absolute;
+    background-color: black;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    transform: translate(-50%); 
+}
+
+.navbar .container .nav-box .menu-top .nav-menu li a:hover::after{
+    width: 100%;
+}
+
+
+.nav-icons .login{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: "Poppins", serif;
+    border: 1px solid rgb(19, 135, 202);
+    background-color: rgb(19, 135, 202);
+    margin-left: 15px;
+}
+
+.nav-icons .login:hover{
+    color: rgb(19, 135, 202);
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar .container .nav-box .nav-icons{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .container .nav-box .nav-icons ul{
+    display: flex;
+    align-items: center;
+    margin: 0 -8px;
+}
+
+.navbar .container .nav-box .nav-icons ul li{
+    margin: 0 8px;
+}
+
+.navbar .container .nav-box .nav-icons ul li i{
+    color: black;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.navbar .container .nav-box .nav-icons ul li i:hover{
+    color: rgb(248,146,35);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar .container .nav-box .nav-icons .fa-bars{
+    color: black;
+    font-size: 18px;
+    display: none;
+    margin-left: 16px;
+}
+
+.navbar .nav-icons{
+    position: relative;
+}
+
+.navbar .nav-icons .cart-icons .add-cart .fa-solid{
+ font-size: 10px;
+ color: rgba(255, 255, 255, 1);
+ background-color: rgb(218,0,36);
+ border-radius: 50%;
+ position: absolute;
+ top: -10px;
+ right: 79px;
+ padding: 11px;
+ height: 8px;
+ width: 8px;
+ z-index: 100;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.dropbtn {
+    color: black;
+    font-size: 16px;
+    padding: 20px;
+    border: none;
+    font-family: "Poppins", serif;
+    cursor: pointer;
+    text-align: center;
+  }
+
+ .navbar #drop-it{
+    padding-right: 0px ;
+ }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(81, 191, 235);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+    z-index: 1;
+  }
+
+  .dropdown-content a{
+    color: white;
+    text-decoration: none;
+    padding:5px  10px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+  }
+
+  .dropdown-content a:hover {
+    background-color: black;
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* -------- end of navbar -------- */
+
+
+
+/* -------- start of slider ------- */
+.slider{
+    min-height: 780px;
+    width: 100%;
+    position: relative;
+    padding: 40px 0 0px 0;
+}
+
+
+.slider #swiper-img-1{
+ min-height: 880px;
+ width: 100%;
+ background: linear-gradient(#61438593,#51639581),url(../IMG/slider-img-1.webp);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.slider #swiper-img-2{
+    min-height: 880px;
+    width: 100%;
+    background: linear-gradient(#23c9db6b,#00cdab41),url(../IMG/slider-img-2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+
+   .slider #swiper-img-3{
+    min-height: 880px;
+    width: 100%;
+    background: linear-gradient(#6582c594,#e4efe959),url(../IMG/slider-3-bg-img.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   } 
+
+   .slider #swiper-img-4{
+    min-height: 880px;
+    width: 100%;
+    background: linear-gradient(#662d8c2d,#ed1e785b),url(../IMG/slider-4-bg-img.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   } 
+
+.slider .slide-style1 .swiper-content{
+    padding: 210px 0 0 90px;
+}
+
+.swiper-content-text-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.swiper-content-text-1 .top-deal{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: orange;
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.swiper-content-text-1 .best-heading{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(16, 16, 134);
+    font-family: "Poppins", serif;
+    padding-bottom: 15px;
+}
+
+.swiper-content-text-1 .last-deal{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+    font-family: "Poppins", serif;
+    padding-top: 15px;
+}
+
+.swiper-content-text-1 .last-deal sup{
+    font-size: 16px;
+}
+
+.swiper-content-text-1 h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: crimson;
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+}
+
+.swiper-content-text-1 h1 .styles{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: crimson;
+    font-family: "Poppins", serif;
+    text-transform: uppercase;  
+}
+
+.swiper-content-text-1 h1 span{
+    display: block;
+}
+
+.swiper-content-text-1 .swiper-btn{
+    margin-top: 30px;
+}
+
+.swiper-content-text-1 .swiper-btn a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(16, 16, 134);
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 35px;
+    border-radius: 25px;
+    display: inline-block;
+    font-family: "Poppins", serif;
+}
+
+.swiper-content-text-1 .swiper-btn a:hover{
+    color: white;
+    background-color: rgb(16, 16, 134);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.swiper-content-text-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.swiper-content-text-2 .offer-date{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    font-family: "Poppins", serif;
+}
+
+.swiper-content-text-2 .offer-date sup{
+    font-size: 15px;
+}
+
+.swiper-content-text-2 .off{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: crimson;
+    font-family: "Poppins", serif;
+    padding: 10px 0;
+}
+
+.swiper-content-text-2 .off span{
+    font-size: 30px;
+}
+
+.swiper-content-text-2 h2{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.swiper-content-text-2 .wish{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    font-family: "Poppins", serif;
+}
+
+.swiper-content-text-2 .offer-off{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: crimson;
+}
+
+.swiper-content-text-2 .swiper-btn{
+    margin-top: 30px;
+}
+
+.swiper-content-text-2 .swiper-btn a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(16, 16, 134);
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 35px;
+    border-radius: 25px;
+    display: inline-block;
+    font-family: "Poppins", serif;
+}
+
+.swiper-content-text-2 .swiper-btn a:hover{
+    color: white;
+    background-color: rgb(16, 16, 134);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.swiper-content-text-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.swiper-content-text-3 h3{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: black;
+    font-family: "Playfair Display", serif;
+}
+
+.swiper-content-text-3 h3 span{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: crimson;
+    padding-top: 10px;
+    display: block;
+    font-family: "Playfair Display", serif;
+}
+
+.swiper-content-text-3 .sale-date{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(16, 16, 134);
+    font-family: "Poppins", serif;
+    padding: 10px 0;
+}
+
+.swiper-content-text-3 .sale-date sup{
+    font-size: 20px;
+}
+
+.swiper-content-text-3 .sale-heading{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: black;
+    font-family: "Oswald", serif;
+    padding-bottom: 15px;
+}
+
+.swiper-content-text-3 .midnight-sale{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: crimson;
+    font-family: "Playfair Display", serif;
+}
+
+.swiper-content-text-3 .midnight-sale span{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.1;
+    display: block;
+    color: rgb(4, 4, 87);
+    font-family: "Playfair Display", serif;
+    display: block;
+    padding-top: 15px;
+}
+
+.swiper-content-text-3 .swiper-btn{
+    margin-top: 30px;
+}
+
+.swiper-content-text-3 .swiper-btn a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(16, 16, 134);
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 35px;
+    border-radius: 25px;
+    display: inline-block;
+    font-family: "Poppins", serif;
+}
+
+.swiper-content-text-3 .swiper-btn a:hover{
+    color: white;
+    background-color: rgb(16, 16, 134);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.swiper-content-text-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.swiper-content-text-4 .wish-heading{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.swiper-content-text-4 .wish-heading span{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: black;
+    padding: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+
+.swiper-content-text-4 .wish-heading span sup{
+    font-size: 18px;
+}
+
+.swiper-content-text-4 .holiday{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: rgb(28, 178, 184);
+    text-transform: uppercase;
+}
+
+.swiper-content-text-4 .holiday span{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #1467d4bb;
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+}
+
+.swiper-content-text-4 h4{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: black;
+    font-family: "Poppins", serif;
+    padding-top: 15px;
+}  
+
+.swiper-content-text-4 h4 span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+} 
+
+.swiper-content-text-4 .swiper-btn{
+    margin-top: 30px;
+}
+
+.swiper-content-text-4 .swiper-btn a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(255, 255, 39);
+    background-color: rgb(17, 78, 17);
+    border: 1px solid rgb(17, 78, 17);
+    padding: 10px 35px;
+    display: inline-block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.swiper-content-text-4 .swiper-btn a i{
+    font-size: 14px;
+}
+
+.swiper-content-text-4 .swiper-btn a:hover{
+    color: rgb(17, 78, 17);
+    background-color: rgb(255, 255, 39);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.slider .slide-style1{
+    margin-bottom: 0px;
+}
+
+.slider #buy-it{
+    padding: 410px 0 0 90px;
+}
+
+.slider .swiper-pagination-bullet{
+    background-color: blueviolet;
+    opacity: 1;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+  }
+
+  .slider .swiper-pagination-bullet-active{
+    background-color: #c20c0c;
+  }
+
+
+/* -------- end of slider -------- */
+
+.sec-1{
+    min-height: 991px;
+    width: 100%;
+    background: url(../IMG/form-wallpaper.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sec-1 .container .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sec-1 form{
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    width: 70%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(#2e319286, #1bffff77);
+    padding: 60px;
+    border: 8px solid #662D8C;
+    border-radius: 25px;
+    box-shadow: 0 0 30px 0 red;
+    transition: all 0.5s ease-in-out;   
+}
+
+.sec-1 form:hover{
+    box-shadow: 0 0 30px 0 greenyellow;
+}
+
+.sec-1 h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: greenyellow;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+
+.sec-1 .form-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+ .sec-1 label{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: "Poppins", serif;
+    color: white;
+}
+
+.in-1{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px 0 10px;
+    outline: none;
+    border-style: none;
+    border: 2px solid blueviolet;
+    font-size: 15px;
+    color: rgb(255, 17, 136);
+    transition: all 0.5s ease-in-out;
+}
+
+.in-1::placeholder{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: gray;
+}
+
+.in-1:focus{
+    background-color: pink;
+}
+
+.lab-2{
+    padding-right: 50px;
+}
+
+.lab-3{
+    padding-right: 5px;
+}
+
+.lab-4{
+    padding-right: 26px;
+}
+
+.sec-1 .form-control-butt{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sub-1{
+    font-size: 18px;
+    border-radius: 25px;
+    border-style: none;
+    padding: 5px 30px;
+    border: 2px solid orange;
+    background-color: orange;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    font-family: "Poppins", serif;
+}
+
+.sub-1:hover{
+    background-color: white;
+    color: orange;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.sub-2{
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 5px 30px;
+    border-style: none;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    font-family: "Poppins", serif;
+    margin-left: 20px;
+}
+
+.sub-2:hover{
+    background-color: white;
+    color: orange;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+
+#error-1, #error-2, #error-3, #error-4{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+.pass-box{
+    position: relative;
+}
+
+.sec-1 .fa-solid{
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(160px,-8px);
+}
+
+
+.confirmation{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(#2E3192 , #1BFFFF);
+}
+
+.confirmation .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.confirmation .confirm-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 150px;
+    padding: 80px 50px;
+    border-radius: 10px;
+}
+
+.confirm-box i{
+    font-size: 65px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.confirmation .confirm-box h1{
+ font-size: 60px;
+ font-weight: 700;
+ line-height: 1.1;
+ color: black;
+ padding-bottom: 15px;
+ font-family: "Poppins", serif;
+}
+
+.confirmation .confirm-box p{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: gray;
+    padding-bottom: 15px;
+    font-family: "Poppins", serif;
+    text-align: center;
+}
+
+.confirm-box a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+    background-color: #2E3192;
+    font-family: "Poppins", serif;
+    padding: 15px 35px;
+    border-radius: 15px;
+    display: inline-block;
+} 
+
+
+/* ------ start of categories --------- */
+
+.categories{
+    min-height: 1000px;
+    width: 100%;
+    padding: 80px 0 30px 0;
+}
+
+.categories .categories-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories .categories-cart{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 20px;
+}
+
+.categories .categories-cart .images{
+    display: block;
+    transition: 0.5s ease;
+}
+
+.categories .categories-cart .categories-cart-text{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(rgba(35, 230, 213, 0.5),rgba(60, 142, 209, 0.5));
+    z-index: 5;
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.categories .categories-cart:hover .categories-cart-text{
+    top: 0;
+}
+
+.categories .categories-cart-text span i{
+    color: white;
+}
+
+.categories .categories-cart-text .cart{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.categories .categories-text span{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: orange;
+    display: block;
+    font-family: "Poppins", serif;
+    padding-bottom: 10px;
+}
+
+.categories .categories-text{
+    margin-bottom: 65px;
+}
+
+.categories .categories-text h2{
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Poppins", serif;
+}
+
+.categories .categories-card{
+    margin-bottom: 50px;
+}
+
+
+.categories .categories-card .categories-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 5px 5px 15px 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+.categories .categories-card .categories-content .images img{
+height: auto;
+max-width: 100%;
+ object-fit: cover;
+}
+
+
+.categories a{
+    display: inline-block;
+}
+
+
+.categories .categories-card .categories-content .categories-content-text .categories-heading{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    padding-bottom: 10px;
+    font-family: "Poppins", serif;
+}
+
+
+.categories .categories-card .categories-cart-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(196, 53, 53);
+    display: block;
+    font-family: "Poppins", serif;
+}
+
+
+.categories .categories-card .categories-content-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(196, 53, 53);
+    display: block;
+    font-family: "Poppins", serif;
+}
+
+.categories .categories-card .categories-content .categories-content-text .categories-btn{
+    margin-top: 20px;
+}
+
+.categories .categories-card .categories-content .categories-content-text .categories-btn a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    background-color: black;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 35px;
+    border: 1px solid black;
+    font-family: "Poppins", serif;
+}
+
+.categories .categories-card .categories-content .categories-content-text .categories-btn a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+/* ------- end of categories -------- */
+
+.menswear{
+    min-height: 600px;
+    background-image: url(../IMG/mens-wear-bg-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.menswear .menswear-text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 300px;
+    text-align: center;
+}
+
+.menswear .menswear-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+.menswear .menswear-text h1 span{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10px;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+.mens-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0 40px;
+}
+
+.mens-category .mens-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.mens-wear span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+.mens-category .mens-category-row2{
+    margin-top: 40px;
+}
+
+.mens-category .mens-wear{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mens-wear h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+.mens-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mens-category .mens-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.mens-category .mens-category-text .mens-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: crimson;
+    font-family: "Montserrat", serif;
+}
+
+
+.dropbtn-menu {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    padding: 20px;
+    border: none;
+    font-family: "Poppins", serif;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+  }
+
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+    max-height: 100px;
+  }
+  
+  .dropdown-list{
+    display: none;
+    position: absolute;
+    background-color: rgb(81, 191, 235);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+    z-index: 1;
+  }
+
+  .dropdown-list a{
+    color: white;
+    text-decoration: none;
+    padding:5px  10px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    text-transform: capitalize;
+  }
+
+  .dropdown-list a:hover {background-color: black;}
+
+  .dropdown-menu:hover .dropdown-list {
+    display: block;
+  }
+
+.mens-category .mens-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+.mens-category .mens-card .images{
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.mens-category .mens-card .images img{
+   height: auto;
+   max-width: 100%; 
+}
+
+.mens-category .mens-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+    cursor: pointer;
+   }
+   
+   .mens-category .mens-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#662d8cc7,#ed1e78c7);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .mens-category .mens-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .mens-category .mens-card .cart span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .mens-category .mens-card:hover .cart{
+       top: 0;
+   }
+  
+   .mens-category .mens-card .mens-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+.mens-category .mens-card .mens-text .mens-title{
+ font-size: 25px;
+ font-weight: 500;
+ line-height: 1.5;
+ font-family: "Inter", serif;
+ text-transform: capitalize;
+ color: black;
+}
+
+.mens-category .mens-card .mens-text ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mens-category .mens-card .mens-text ul li{
+    color: orange;
+}
+
+.mens-category .mens-card .mens-text span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(146, 141, 141);
+    font-family: "Poppins", serif;
+}
+
+.mens-category .mens-card .mens-text .price{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+}
+
+.womenswear{
+    min-height: 900px;
+    background-image: url(../IMG/womens-bg-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.womenswear .womenswear-text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.womenswear .womenswear-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+.womenswear .womenswear-text h1 span{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10px;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+.womens-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.womens-category .womens-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.womens-wear span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+.womens-category .womens-wear{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.womens-wear h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+.womens-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.womens-category .womens-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.womens-category .womens-category-text .womens-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.womens-category .womens-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.womens-category .womens-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+   
+   .womens-category .womens-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#662d8cc7,#ed1e78c7);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .womens-category .womens-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .womens-category .womens-card .cart span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .womens-category .womens-card:hover .cart{
+       top: 0;
+   }
+  
+
+.womens-category .womens-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .womens-category .womens-card .womens-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .womens-category .womens-card .womens-text .womens-title{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .womens-category .womens-card .womens-text ul{
+     display: flex;
+ }
+ 
+ .womens-category .womens-card .womens-text ul li{
+     color: orange;
+ }
+ 
+ .womens-category .womens-card .womens-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .womens-category .womens-card .womens-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+
+
+ .kidswear{
+    min-height: 900px;
+    background: linear-gradient( to bottom ,#6143859c,#51639528), url(../IMG/kidswear-backgound-img.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.kidswear .kidswear-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 350px;
+}
+
+.kidswear .kidswear-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+
+.kidswear .kidswear-text h1 span{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10px;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+.kids-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.kids-category .kidswear-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.kids-wear span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+.kids-category .kids-wear{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.kids-wear h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+.kids-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kids-category .kids-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.kids-category .kids-category-row2{
+    margin-top: 50px;
+}
+
+.kids-category .kids-category-text .kids-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.kids-category .kids-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.kids-category .kids-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+   
+   .kids-category .kids-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#ee9ca7d7,#ffdde1c7);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .kids-category .kids-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .kids-category .kids-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .kids-category .kids-card:hover .cart{
+       top: 0;
+   }
+  
+
+
+.kids-category .kids-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .kids-category .kids-card .kids-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .kids-category .kids-card .kids-text .kids-title{
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .kids-category .kids-card .kids-text ul{
+     display: flex;
+ }
+ 
+ .kids-category .kids-card .kids-text ul li{
+     color: orange;
+ }
+ 
+ .kids-category .kids-card .kids-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .kids-category .kids-card .kids-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+
+ .mensfootwear{
+    min-height: 700px;
+    background-image: url(../IMG/mensfootwear-images.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.mensfootwear .mensfootwear-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 350px;
+    text-align: center;
+}
+
+.mensfootwear .mensfootwear-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: white;
+    font-family: "Open Sans", serif;
+}
+
+.mensfootwear .mensfootwear-text h1 span{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: white;
+    display: block;
+    padding-top: 10px;
+    font-family: "Open Sans", serif;
+}
+
+.mensfootwear-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.mensfootwear-category .mensfootwear-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.mensfootwear-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.mensfootwear-title span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+
+.mensfootwear-category .mensfootwear-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.mensfootwear-category .mensfootwear-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+   }
+   
+   .mensfootwear-category .mensfootwear-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#02aabda1,#00cdab9a);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .mensfootwear-category .mensfootwear-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .mensfootwear-category .mensfootwear-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .mensfootwear-category .mensfootwear-card:hover .cart{
+       top: 0;
+   }
+  
+
+.mensfootwear-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+.mensfootwear-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mensfootwear-category .mensfootwear-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.mensfootwear-category .mensfootwear-category-text .mensfootwear-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.mensfootwear-category .mensfootwear-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.mensfootwear-category .mensfootwear-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .mensfootwear-category .mensfootwear-card .mensfootwear-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+ }
+ 
+ .mensfootwear-category .mensfootwear-card .mensfootwear-text .mensfootwear-title-1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .mensfootwear-category .mensfootwear-card .mensfootwear-text ul{
+     display: flex;
+ }
+ 
+ .mensfootwear-category .mensfootwear-card .mensfootwear-text ul li{
+     color: orange;
+ }
+ 
+ .mensfootwear-category .mensfootwear-card .mensfootwear-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .mensfootwear-category .mensfootwear-card .mensfootwear-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+
+ .womenfootwear{
+    min-height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background: linear-gradient(#614385a6, #5163958f),url(../IMG/womens-footwear-bg-img.webp);
+}
+
+.womenfootwear .womenfootwear-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    text-align: center;
+}
+
+.womenfootwear .womenfootwear-text h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: white;
+    font-family: "Open Sans", serif;
+}
+
+.womenfootwear .womenfootwear-text h1 span{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: white;
+    display: block;
+    padding-top: 10px;
+}
+
+.womenfootwear-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.womenfootwear-category .womenfootwear-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.womenfootwear-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.womenfootwear-title span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+
+.womenfootwear-category .womenfootwear-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.womenfootwear-category .womenfootwear-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+   }
+   
+   .womenfootwear-category .womenfootwear-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#02aabda1,#00cdab9a);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .womenfootwear-category .womenfootwear-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .womenfootwear-category .womenfootwear-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .womenfootwear-category .womenfootwear-card:hover .cart{
+       top: 0;
+   }
+  
+
+.womenfootwear-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+.womenfootwear-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.womenfootwear-category .womenfootwear-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.womenfootwear-category .womenfootwear-category-text .womenfootwear-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.womenfootwear-category .womenfootwear-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.womenfootwear-category .womenfootwear-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .womenfootwear-category .womenfootwear-card .womenfootwear-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+ }
+ 
+ .womenfootwear-category .womenfootwear-card .womenfootwear-text .womenfootwear-title-1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .womenfootwear-category .womenfootwear-card .womenfootwear-text ul{
+     display: flex;
+ }
+ 
+ .womenfootwear-category .womenfootwear-card .womenfootwear-text ul li{
+     color: orange;
+ }
+ 
+ .womenfootwear-category .womenfootwear-card .womenfootwear-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .womenfootwear-category .womenfootwear-card .womenfootwear-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+
+ .kidsfootwear{
+    min-height: 700px;
+    background: linear-gradient(#c33763ab, #1d257198),url(../IMG/mensfootwear-shoes.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.kidsfootwear .kidsfootwear-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px;
+    text-align: center;
+}
+
+.kidsfootwear .kidsfootwear-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: white;
+    font-family: "Open Sans", serif;
+}
+
+.kidsfootwear .kidsfootwear-text h1 span{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: white;
+    display: block;
+    margin-top: 10px;
+    font-family: "Open Sans", serif;
+}
+
+.kidsfootwear-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.kidsfootwear-category .kidsfootwear-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.kidsfootwear-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.kidsfootwear-title span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+
+.kidsfootwear-category .kidsfootwear-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.kidsfootwear-category .kidsfootwear-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+   }
+   
+   .kidsfootwear-category .kidsfootwear-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#d8b5ff88 ,#1eae98bd);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .kidsfootwear-category .kidsfootwear-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .kidsfootwear-category .kidsfootwear-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .kidsfootwear-category .kidsfootwear-card:hover .cart{
+       top: 0;
+   }
+  
+
+.kidsfootwear-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+.kidsfootwear-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kidsfootwear-category .kidsfootwear-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.kidsfootwear-category .kidsfootwear-category-text .kidsfootwear-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.kidsfootwear-category .kidsfootwear-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.kidsfootwear-category .kidsfootwear-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .kidsfootwear-category .kidsfootwear-card .kidsfootwear-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+ }
+ 
+ .kidsfootwear-category .kidsfootwear-card .kidsfootwear-text .kidsfootwear-title-1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .kidsfootwear-category .kidsfootwear-card .kidsfootwear-text ul{
+     display: flex;
+ }
+ 
+ .kidsfootwear-category .kidsfootwear-card .kidsfootwear-text ul li{
+     color: orange;
+ }
+ 
+ .kidsfootwear-category .kidsfootwear-card .kidsfootwear-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .kidsfootwear-category .kidsfootwear-card .kidsfootwear-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+
+ .jewellery{
+    min-height: 760px;
+    background: linear-gradient(#09203f62,#5378959f),url(../IMG/jewellery-bg-img.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.jewellery .jewellery-text{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.jewellery .jewellery-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+
+.jewellery .jewellery-text h1 span{
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10px;
+    color:white;
+}
+
+
+.jewellery-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.jewellery-category .jewellery-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.jewellery-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.jewellery-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+
+.jewellery-title span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+
+
+.jewellery-category .jewellery-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.jewellery-category .jewellery-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+   
+   .jewellery-category .jewellery-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#4e66ffa6, #92effd8c);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .jewellery-category .jewellery-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .jewellery-category .jewellery-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .jewellery-category .jewellery-card:hover .cart{
+       top: 0;
+   }
+  
+
+.jewellery-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jewellery-category .jewellery-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.jewellery-category .jewellery-category-text .jewellery-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+
+
+.jewellery-category .jewellery-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .jewellery-category .jewellery-card .jewellery-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .jewellery-category .jewellery-card .jewellery-text .jewellery-title-1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .jewellery-category .jewellery-card .jewellery-text ul{
+     display: flex;
+ }
+ 
+ .jewellery-category .jewellery-card .jewellery-text ul li{
+     color: orange;
+ }
+ 
+ .jewellery-category .jewellery-card .jewellery-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .jewellery-category .jewellery-card .jewellery-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+
+
+
+ .beautymakeup{
+    min-height: 900px;
+    background-image: url(../IMG/makeup-bg-img.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.beautymakeup .beautymakeup-text{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.beautymakeup .beautymakeup-text h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+
+.beautymakeup .beautymakeup-text h1 span{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10pxx;
+    color:white;
+}
+
+.beautymakeup-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.beautymakeup-category .beautymakeup-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.beautymakeup-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.beautymakeup-title span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+
+.beautymakeup-category .beautymakeup-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.beautymakeup-category .beautymakeup-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+   
+   .beautymakeup-category .beautymakeup-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#4e66ffa6, #92effd8c);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .beautymakeup-category .beautymakeup-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .beautymakeup-category .beautymakeup-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .beautymakeup-category .beautymakeup-card:hover .cart{
+       top: 0;
+   }
+  
+
+.beautymakeup-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+.beautymakeup-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.beautymakeup-category .beautymakeup-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.beautymakeup-category .beautymakeup-category-text .beautymakeup-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.beautymakeup-category .beautymakeup-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.beautymakeup-category .beautymakeup-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .beautymakeup-category .beautymakeup-card .beautymakeup-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .beautymakeup-category .beautymakeup-card .beautymakeup-text .beautymakeup-title-1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .beautymakeup-category .beautymakeup-card .beautymakeup-text ul{
+     display: flex;
+ }
+ 
+ .beautymakeup-category .beautymakeup-card .beautymakeup-text ul li{
+     color: orange;
+ }
+ 
+ .beautymakeup-category .beautymakeup-card .beautymakeup-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .beautymakeup-category .beautymakeup-card .beautymakeup-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+
+ .watches{
+    min-height: 850px;
+    background: linear-gradient(#a1c4fd28, #c2e9fbb7),url(../IMG/watch-bg-img.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.watches .watches-text{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.watches .watches-text h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+
+.watches .watches-text h1 span{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10pxx;
+    color:white;
+}
+
+
+.watches-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.watches-category .watches-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.watches-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.watches-title span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+.watches-category .watches-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.watches-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+.watches-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.watches-category .watches-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.watches-category .watches-category-text .watches-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+
+.watches-category .watches-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.watches-category .watches-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+   
+   .watches-category .watches-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#c3376396, #1d257180);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .watches-category .watches-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .watches-category .watches-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .watches-category .watches-card:hover .cart{
+       top: 0;
+   }
+
+
+.watches-category .watches-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .watches-category .watches-card .watches-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .watches-category .watches-card .watches-text .watches-title-1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .watches-category .watches-card .watches-text ul{
+     display: flex;
+ }
+ 
+ .watches-category .watches-card .watches-text ul li{
+     color: orange;
+ }
+ 
+ .watches-category .watches-card .watches-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .watches-category .watches-card .watches-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+ .officewear{
+    min-height: 750px;
+    background: linear-gradient(#61438586,#5163957e),url(../IMG/officewear-bg-img.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.officewear .officewear-text{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 300px;
+    text-align: center;
+}
+
+.officewear .officewear-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+
+.officewear .officewear-text h1 span{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10px;
+    color:white;
+}
+
+.officewear-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.officewear-category .officewear-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.officewear-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.officewear-category .officewear-title span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+.officewear-category .officewear-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.officewear-category .officewear-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+.officewear-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.officewear-category .officewear-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.officewear-category .officewear-category-text .officewear-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+
+.officewear-category .officewear-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.officewear-category .officewear-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+   
+   .officewear-category .officewear-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#c3376396, #1d257180);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .officewear-category .officewear-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .officewear-category .officewear-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .officewear-category .officewear-card:hover .cart{
+       top: 0;
+   }
+
+
+.officewear-category .officewear-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .officewear-category .officewear-card .officewear-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .officewear-category .officewear-card .officewear-text .officewear-title-1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .officewear-category .officewear-card .officewear-text ul{
+     display: flex;
+ }
+ 
+ .officewear-category .officewear-card .officewear-text ul li{
+     color: orange;
+ }
+ 
+ .officewear-category .officewear-card .officewear-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .officewear-category .officewear-card .officewear-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+
+ .beltwallet{
+    min-height: 650px;
+    background: linear-gradient(#614385 ,#516395);
+    width: 100%;
+    padding-top: 250px;
+}
+
+.beltwallet-images img{
+    height: auto;
+    max-width: 100%;
+}
+
+.beltwallet .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beltwallet .beltwallet-text{
+    text-align: center;
+}
+
+.beltwallet .beltwallet-text h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+
+.beltwallet .beltwallet-text h1 span{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10px;
+    color:white;
+}
+
+.beltwallet-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.beltwallet-category .beltwallet-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.beltwallet-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.beltwallet-category .beltwallet-title span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+.beltwallet-category .beltwallet-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Inter", serif;
+    color: black;
+}
+
+
+.beltwallet-category .beltwallet-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.beltwallet-category .beltwallet-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+   
+   .beltwallet-category .beltwallet-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#a1c4fdd2, #764ba2ce );
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .beltwallet-category .beltwallet-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .beltwallet-category .beltwallet-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .beltwallet-category .beltwallet-card:hover .cart{
+       top: 0;
+   }
+
+
+
+.beltwallet-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.beltwallet-category .beltwallet-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.beltwallet-category .beltwallet-category-text .beltwallet-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.beltwallet-category .beltwallet-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+.beltwallet-category .beltwallet-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .beltwallet-category .beltwallet-card .beltwallet-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .beltwallet-category .beltwallet-card .beltwallet-text .beltwallet-title-1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .beltwallet-category .beltwallet-card .beltwallet-text ul{
+     display: flex;
+ }
+ 
+ .beltwallet-category .beltwallet-card .beltwallet-text ul li{
+     color: orange;
+ }
+ 
+ .beltwallet-category .beltwallet-card .beltwallet-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .beltwallet-category .beltwallet-card .beltwallet-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+ .casual{
+    min-height: 750px;
+    background: linear-gradient(#61438583, #5163956c),url(../IMG/casual-style-bg-img.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.casual .casual-text{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.casual .casual-text h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    color:white;
+    font-family: "Open Sans", serif;
+}
+
+
+.casual .casual-text h1 span{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10pxx;
+    color:white;
+}
+
+.casual-category{
+    min-height: 500px;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.casual-category .casual-category-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.casual-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.casual-category .casual-title span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(0, 162, 255);
+}
+
+.casual-category .casual-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Poppins", serif;
+    color: black;
+}
+
+.casual-category .casual-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+
+.casual-category .casual-card-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+    margin-bottom: 10px;
+   }
+   
+   .casual-category .casual-card .cart{
+       height: 100%;
+       width: 100%;
+       top: -100%;
+       left: 0;
+       position: absolute;
+       overflow: hidden;
+       background: linear-gradient(#c3376396, #1d257180);
+       z-index: 5;
+       background-repeat: none;
+       transition: all 1s ease;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+
+   .casual-category .casual-card .cart i{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 18px;
+   }
+
+   .casual-category .casual-card .cart span{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: block;
+   }
+     
+   .casual-category .casual-card:hover .cart{
+       top: 0;
+   }
+
+
+
+.casual-heading-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.casual-category .casual-category-text span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+.casual-category .casual-category-text .casual-heading{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    font-family: "Montserrat", serif;
+}
+
+.casual-category .casual-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+}
+
+.casual-category .casual-card .images img{
+    height: auto;
+    max-width: 100%; 
+ }
+
+ .casual-category .casual-card .casual-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .casual-category .casual-card .casual-text .casual-title-1{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: "Inter", serif;
+  text-transform: capitalize;
+  color: black;
+ }
+ 
+ .casual-category .casual-card .casual-text ul{
+     display: flex;
+ }
+ 
+ .casual-category .casual-card .casual-text ul li{
+     color: orange;
+ }
+ 
+ .casual-category .casual-card .casual-text span{
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: rgb(146, 141, 141);
+     font-family: "Poppins", serif;
+ }
+ 
+ .casual-category .casual-card .casual-text .price{
+     font-size: 18px;
+     font-weight: 500;
+     line-height: 1.5;
+     font-family: "Poppins", serif;
+ }
+
+ /* ------- start of brands --------- */
+
+.brands{
+    min-height: 1000px;
+    width: 100%;
+}
+
+.brands .brands-heading-title{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.brands .brands-heading-title h2{
+ font-size: 45px;
+ font-weight: 700;
+ line-height: 1.2;
+ color: rgb(9, 113, 121);
+ font-family: "Montserrat", serif;
+}
+
+.brands .brands-title #brands-1{
+     position: relative;
+     min-height: 300px;
+     background-image: url(../IMG/adidas-img.webp);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+}
+
+
+.brands .brands-title #brands-2{
+    position: relative;
+    min-height: 300px;
+    background-image: url(../IMG/swiper-3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.brands .brands-title #brands-3{
+    position: relative;
+    min-height: 300px;
+    background-image: url(../IMG/swiper-men-casual.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.brands .brands-title #brands-4{
+    position: relative;
+    min-height: 300px;
+    background-image: url(../IMG/swiper-men-sweat-shirt.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.brands .brands-title #brands-5{
+    position: relative;
+    min-height: 300px;
+    background-image: url(../IMG/swiper-6.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.brands .brands-title #brands-6{
+    position: relative;
+    min-height: 300px;
+    background-image: url(../IMG/swiper-men-watch.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.brands .brands-title{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.brands .brands-title .brands-text{
+ position: absolute;
+ bottom: 0;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ background: linear-gradient(#614385c5,#516395d8);
+ padding: 10px 0;
+
+}
+
+.swiper-style2{
+    cursor: pointer;
+}
+
+.swiper-style3{
+    cursor: pointer;
+}
+
+.brands .brands-title #fit-1{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+.brands .brands-title #fit-2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.brands .brands-title #fit-3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.brands .brands-title #fit-4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.brands .brands-title #fit-5{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.brands .brands-title #fit-6{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.brands .brands-title .brands-text span{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: white;
+    display: block;
+    font-family: "Open Sans", serif;
+}
+
+.brands .brands-title .brands-text .brands-heading{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.brands #brand-fig .brands-logo img{
+    height: 80px;
+    max-width: 100px;
+    object-fit: cover;
+}
+
+.brands .brands-logo img{
+    max-height: 80px;
+    max-width: 100px;
+    object-fit: cover;
+}
+
+.slide-style2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.slide-style3{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.brands .container .swiper-btn-1{
+    position: absolute;
+    z-index: 5;
+    top: -12%;
+    left: 90%;
+}
+
+.brands .container .swiper-btn-2{
+    position: absolute;
+    z-index: 5;
+    top: -12%;
+    left: 90%;
+}
+
+.brands .brands-customer-1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.brands .brands-customer-1 h2{
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: rgb(16, 16, 134);
+    font-family: "Poppins", serif;
+}
+
+.brands .brands-customer-2{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin: 100px 0 30px 0;
+}
+
+.brands .brands-customer-2 h2{
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: rgb(16, 16, 134);
+    font-family: "Poppins", serif;
+}
+
+.brands .container .swiper-btn-1 .swiper-button-prev{
+    padding: 2px 22px;
+    background-color: orangered;
+    color: #fff; 
+    border-radius: 50%;
+}
+
+.brands .container .swiper-btn-1 .swiper-button-next{
+    padding: 2px 22px;
+    background-color: orangered;
+    color: #fff; 
+    border-radius: 50%;
+}
+
+
+.brands .container .swiper-btn-2 .swiper-button-prev{
+    padding: 2px 22px;
+    background-color: orangered;
+    color: #fff; 
+    border-radius: 50%;
+}
+
+.brands .container .swiper-btn-2 .swiper-button-next{
+    padding: 2px 22px;
+    background-color: orangered;
+    color: #fff; 
+    border-radius: 50%;
+}
+
+.swiper-btn-1 .swiper-button-next::after{
+    content: "\276E";
+    font-size: 30px;
+}
+.swiper-btn-1 .swiper-button-prev::after{
+    content: "\276F";
+    font-size: 30px;
+}
+
+
+.swiper-btn-2 .swiper-button-next::after{
+    content: "\276E";
+    font-size: 30px;
+}
+.swiper-btn-2 .swiper-button-prev::after{
+    content: "\276F";
+    font-size: 30px;
+}
+
+.brands .swiper-pagination-bullet{
+    background-color: #b58e3e;
+    opacity: 1;
+  }
+
+  .brands .swiper-pagination-bullet-active{
+    background-color: #c20c0c;
+  }
+
+
+  .brands .brands-title #brands-7{
+    position: relative;
+    min-height: 300px;
+    background-image: url(../IMG/swiper-shoe-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.brands .brands-title #brands-8{
+   position: relative;
+   min-height: 300px;
+   background-image: url(../IMG/womens-footwear-10.webp);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+
+.brands .brands-title #brands-9{
+   position: relative;
+   min-height: 300px;
+   background-image: url(../IMG/swiper-5.webp);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.brands .brands-title #brands-10{
+   position: relative;
+   min-height: 300px;
+   background-image: url(../IMG/swiper-4.webp);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.brands .brands-title #brands-11{
+   position: relative;
+   min-height: 300px;
+   background-image: url(../IMG/swiper-6.webp);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+.brands .brands-title #brands-12{
+   position: relative;
+   min-height: 300px;
+   background-image: url(../IMG/swiper-7.webp);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+/* --------- end of brands ------- */
+
+/* ------ start of collection -------- */
+.collection{
+    min-height: 700px;
+    width: 100%;
+    background-color: rgb(247,247,247);
+    padding: 100px 0 70px 0;
+}
+
+.collection .collection-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.collection .collection-heading span{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(37, 19, 194);
+    padding-bottom: 10px;
+    display: block;
+}
+
+.collection .collection-heading h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: black;
+}
+
+.collection .collection-card{
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+.collection .collection-card .collection-img-title{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 20px;
+}
+
+.collection .collection-card .collection-img-title .title-cart{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(rgba(230,16,81,0.5),rgba(230,16,81,0.5));
+    z-index: 5;
+    background-repeat: none;
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.collection .collection-card .collection-img-title:hover .title-cart{
+    top: 0;
+}
+
+.collection .collection-card .collection-img-title .title-cart span i{
+    color: white;
+}
+
+.collection .collection-card .collection-img-title .cart{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.collection .collection-card .collection-img-title .images{
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.collection .collection-card .images img{
+    height: auto;
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+.collection .collection-card .collection-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.collection .collection-card .collection-text .collection-content{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.1;
+    padding-bottom: 10px;
+    color: black;
+    font-family: "Inter", serif;
+}
+
+.collection .collection-card .collection-text .collection-price{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(65, 56, 56);
+    font-family: "Poppins", serif;
+}
+
+
+.collection .collection-card .collection-text .collection-btn{
+    margin-top: 20px;
+}
+
+.collection .collection-card .collection-text .collection-btn a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 35px;
+    padding: 5px 28px;
+    font-family: "Poppins", serif;
+}
+
+.collection .collection-card .collection-text .collection-btn a:hover{
+    background-color: white;
+    color: orange;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+/* ------- end of collection ------ */
+
+/* -------- start of policy ------ */
+
+.policy{
+    width: 100%;
+    padding: 80px 0;
+    background-color: rgb(243, 166, 23);
+}
+
+.policy .policy-heading{
+    text-align: center;
+    margin-bottom: 50px;
+} 
+
+.policy .policy-heading h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: black;
+    font-family: "Poppins", serif;
+}
+
+.policy .policy-card{
+    cursor: pointer;
+}
+
+.policy .policy-card .policy-text{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.policy .policy-card #policy-1{
+    padding: 50px 30px;
+    background-color: rgba(247, 203, 195,1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.policy .policy-card #policy-2{
+    padding: 50px 30px;
+    background-color: rgba(239, 243, 189,1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.policy .policy-card #policy-3{
+    padding: 45px 30px;
+    background-color: rgba(177, 231, 231,1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.policy .policy-card #policy-4{
+    padding: 55px 30px;
+    background-color: rgb(240, 211, 170);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.policy .policy-card .policy-text .images{
+    margin-bottom: 15px;
+}
+
+.policy .policy-card .policy-text .images img{
+   max-width: 120px;
+   max-width: 120px;
+   object-fit: cover;
+}
+
+.policy .policy-card .policy-text .policy-title span{
+ font-size: 18px;
+ font-weight: 500;
+ line-height: 1.4;
+ color: black;
+ display: block;
+ padding-bottom: 15px;
+ font-family: "Poppins", serif;
+}
+
+.policy .policy-card .policy-text .policy-title p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: black;
+    font-family: "Poppins", serif;
+}
+
+/* ----- end of policy ------- */
+
+/* ------ start of testimonial --------- */
+.testimonial{
+    width: 100%;
+    padding: 80px 0;
+    background-color: black;
+}
+
+.testimonial .testimonial-heading{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.testimonial .testimonial-heading h2{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: white;
+    font-family: "Berkshire Swash", serif;
+}
+
+.testimonial .testimonial-heading h2 span{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.1;
+    font-family: "Berkshire Swash", serif;
+    color: rgb(245, 71, 187);
+}
+
+.testimonial .testimonial-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.testimonial .testimonial-title .images{
+    margin-bottom: 10px;
+}
+
+.testimonial .testimonial-title .images img{
+   max-height: 80px;
+   max-width: 80px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 6px solid #e4e4e4;
+
+}
+
+.testimonial .testimonial-title .testimonial-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial .testimonial-title .testimonial-text span{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    display: block;
+    color: white;
+    font-family: "Roboto", serif;
+    padding-bottom: 40px;
+}
+
+.testimonial .testimonial-title .testimonial-text .paragraph{
+      padding: 40px 30px;
+      background-color: rgb(244,244,244);
+      border-radius: 15px;
+}
+
+.testimonial .testimonial-title .testimonial-text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Roboto Condensed", serif;
+    font-style: italic;
+}
+
+.testimonial .slide-style4{
+    margin-bottom: 60px;
+}
+
+.testimonial .swiper-pagination .swiper-pagination-bullet{
+    height: 3px;
+    width: 20px;
+    border-radius: 2px;
+    background-color: white;
+    opacity: 1;
+}
+
+.testimonial .swiper-pagination-bullet-active{
+    background-color: rgb(245, 71, 187) !important;
+}
+
+/* ------- end of testimonial -------- */
+
+/* -------- start of shipping -------- */
+
+.shipping{
+    width: 100%;
+    padding:80px 0  50px 0;
+}
+
+
+.shipping .shipping-img-1 img{
+    height: auto;
+    max-width: 100%;
+}
+
+.shipping .shipping-title-text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    left: 32%;
+    text-align: center;
+}
+
+.shipping .shipping-title-text h3{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: white;
+    font-family: "Poppins", serif;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.shipping .shipping-title-text span{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+    display: block;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+
+.shipping .shipping-title-text p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.shipping .shipping-title-1{
+    cursor: pointer;
+}
+
+.shipping  .arrive{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: crimson;
+    text-align: center;
+    padding-bottom: 35px;
+    font-family: "Poppins", serif;
+}
+
+.shipping .container .shipping-row2{
+    margin-top: 20px;
+}
+
+.shipping .shipping-title-2{
+    position: relative;
+    cursor: pointer;
+}
+
+
+.shipping .shipping-img-2 img{
+    height: auto;
+    max-width: 100%;
+}
+
+.shipping #shop-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 19%;
+    padding: 10px;
+    text-align: center;
+    background: linear-gradient(#2e3192b9 ,#1bffffa4);
+}
+
+.shipping #shop-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 12%;
+    text-align: center;  
+    padding: 10px;
+    background: linear-gradient(#2e3192b9 ,#1bffffa4);
+}
+
+.shipping #shop-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 24%;
+    text-align: center; 
+    padding: 10px;
+    background: linear-gradient(#2e3192b9 ,#1bffffa4);
+}
+
+.shipping .shop-text  span{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+    display: block;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.shipping .shop-text p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+/* ------- end of shipping --------- */
+
+/* ------- star of timer ------- */
+.timer{
+    width: 100%;
+    padding: 40px 0 80px 0;
+}
+
+.timer .row{
+    display: flex;
+    align-items: center;
+}
+
+.timer .special-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.timer .special-text h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: black;
+    font-family: "Poppins", serif;
+    padding-bottom: 15px;
+}
+
+
+.timer .special-text .limited{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: "Poppins", serif;
+}
+
+.timer .timer-deal h3{
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: black;
+    font-family: "Poppins", serif;
+}
+
+.timer .countdown-timer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.timer .countdown-timer .deal-text{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    font-family: "Poppins", serif;
+    margin-bottom: -20px;
+}
+
+.timer .countdown-timer #timer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.timer .countdown-timer #timer li{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: black;
+    position: relative;
+    color: #c20c0c;
+}
+
+.timer .countdown-timer #timer #h:after{
+    content: ":";
+    top: 0;
+    left: 88px;
+    color: black;
+    position: absolute;
+} 
+
+
+.timer .countdown-timer #timer #m:after{
+    content: ":";
+    top: 0;
+    left: 85px;
+    color: black;
+    position: absolute;
+}
+
+.timer .countdown-timer #timer #h{
+    padding-left: 20px;
+}
+
+.timer .countdown-timer #timer #m{
+    padding-left: 20px;
+}
+
+.timer .countdown-timer #timer #s{
+    padding-left: 20px;
+}
+
+.timer .countdown-timer #timer #day span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+
+.timer .countdown-timer #timer #h span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.timer .countdown-timer #timer #m span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.timer .countdown-timer #timer #s span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.timer .timer-cart-text span i{
+    color: white;
+}
+
+.timer .timer-cart-text .cart{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.timer .timer-card .timer-cart .images{
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.timer .timer-card .timer-cart:hover .timer-cart-text{
+    top: 0;
+}
+
+.timer .timer-card .timer-cart{
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 20px;
+} 
+
+.timer .timer-card .timer-cart .timer-cart-text{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(rgba(35, 230, 213, 0.5),rgba(60, 142, 209, 0.5));
+    z-index: 5;
+    background-repeat: none;
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timer .timer-card .images img{
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.timer .timer-card .special-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer .timer-card{
+    position: relative;
+}
+
+.timer .timer-card .special-title .special-text-1{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: black;
+}
+
+.timer .timer-card .special-title span{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgb(42, 9, 160);
+    display: block;
+}
+
+.timer .timer-style{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-family: "Poppins", serif;
+    position: absolute;
+    bottom: 20%;
+    left: 80px;
+}
+
+.timer .timer-style-1{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-family: "Poppins", serif;
+    position: absolute;
+    bottom: 20%;
+    left: 50px;
+}
+
+.timer .timer-style-2{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.5;
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    font-family: "Poppins", serif;
+    position: absolute;
+    bottom: 20%;
+    left: 100px;
+}
+
+.timer .deal-text{
+    padding-bottom: 15px;
+}
+
+.timer .heading{
+    color: transparent;
+    background-image: linear-gradient(90deg, pink 50%, black 50%);
+    background-position:100%;
+    background-size:200% 100%;
+    background-clip:text;
+    -webkit-background-clip:text;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.1;
+    -webkit-text-stroke: 1px orange; 
+    text-stroke: 2px black; 
+    color: transparent;
+    cursor: pointer;
+    transition: all  1s ease;
+  }
+
+ .timer .heading:hover{
+    background-position:0;
+  }
+
+
+  .timer-style-1{
+    color: transparent;
+    background-image: linear-gradient(90deg, orange 50%, black 50%);
+    background-position:100%;
+    background-size:200% 100%;
+    background-clip:text;
+    -webkit-background-clip:text;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.1;
+    -webkit-text-stroke: 1px orange; 
+    text-stroke: 2px black;     
+    color: transparent;
+    cursor: pointer;
+    transition: all  1s ease;
+  }
+  
+  .timer-style-1:hover{
+    background-position:0;
+  }
+
+
+  .timer-style{
+    color: transparent;
+    background-image: linear-gradient(90deg, orange 50%, black 50%);
+    background-position:100%;
+    background-size:200% 100%;
+    background-clip:text;
+    -webkit-background-clip:text;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.1;
+    -webkit-text-stroke: 1px orange; 
+    text-stroke: 2px black;     
+    color: transparent;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  
+  .timer-style:hover{
+    background-position:0;
+  }
+
+
+  .timer-style-2{
+    color: transparent;
+    background-image: linear-gradient(90deg, orange 50%, black 50%);
+    background-position:100%;
+    background-size:200% 100%;
+    background-clip:text;
+    -webkit-background-clip:text;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.1;
+    -webkit-text-stroke: 1px orange; 
+    text-stroke: 2px black;     
+    color: transparent;
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  
+  .timer-style-2:hover{
+    background-position:0;
+  }
+
+/* ------- end of timer ------ */
+
+
+/* ----- start of subscribe ------- */
+
+.subscribe{
+    width: 100%;
+    background-color: rgb(240, 228, 228);
+    padding: 80px 0;
+}
+
+.subscribe .envelope-images img{
+   max-height: 300px;
+   max-width: 300px;
+   object-fit: cover;
+}
+
+.subscribe .subscribe-text{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.subscribe .subscribe-text h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: black;
+    font-family: "Poppins", serif;
+    padding-bottom: 15px;
+}
+
+.subscribe .subscribe-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(71, 47, 47);
+    font-family: "Poppins", serif;
+    padding-bottom: 15px;
+}
+
+.subscribe .subscribe-text .input-data{
+    margin-bottom: 30px;
+}
+
+.subscribe .subscribe-text .input-data input{
+   border: none;
+   outline: none; 
+   font-size: 15px;
+   background-color: orange;
+   padding: 15px 0 15px 15px;
+   border-radius: 16px;
+   width: 75%;
+}
+
+.subscribe .subscribe-text .input-data ::placeholder{
+    color: white;
+    font-weight: 700;
+}
+
+.subscribe .subscribe-btn a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 6px;
+    border: 1px solid rgb(8, 61, 105);
+    background-color: rgb(8, 61, 105);
+}
+
+.subscribe .subscribe-btn a:hover{
+    color:  rgb(8, 61, 105);
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+
+/* ------ end of subscribe ---------- */
+
+
+/* -------- start of footer -------- */
+
+footer{
+    background-color: rgb(20,33,42);
+    min-height: 400px;
+    width: 100%;
+}
+
+footer .footer-upper{
+    border-bottom: 2px solid white;
+    padding: 100px 0 50px 0;
+}
+
+footer .footer-upper .container .row{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-upper .footer-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-upper .footer-text .quick-social-links span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 20px;
+
+}
+
+.footer-upper .footer-text .footer-logo a{
+    display: block;
+    max-width: 60px;
+    width: 100%;
+}
+
+.footer-upper .footer-text .footer-logo{
+    margin-bottom: 20px;
+}
+
+.footer-upper .footer-text .footer-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-upper .footer-text .footer-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.footer-upper .footer-text .footer-social-icons{
+    margin-top: 30px;
+}
+
+.footer-upper .footer-text .footer-social-icons ul{
+    display: flex;
+    margin: 0 -8px;
+}
+
+.footer-upper .footer-text .footer-social-icons ul li{
+    margin: 0 8px;
+}
+
+.footer-upper .footer-text .footer-social-icons ul li a{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-upper .footer-text .footer-social-icons ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-upper .footer-text .quick-social-links{
+    margin-top: 20px;
+}
+
+.footer-upper .footer-text .quick-social-links ul{
+    display: flex;
+    margin: 0 -8px;
+}
+
+.footer-upper .footer-text .quick-social-links ul li{
+    margin: 0 8px;
+}
+
+.footer-upper .footer-text .quick-social-links ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: rgb(14, 13, 13);
+    display: inline-block;
+    font-family: "Poppins", serif;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-upper .footer-text .quick-social-links ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-upper .inform{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-upper .inform span{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+.footer-upper .inform ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.footer-upper .inform ul li a:hover{
+    color: blueviolet;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-upper .quick-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-upper .quick-link span{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer-upper .quick-link ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+
+.footer-upper .quick-link ul li a:hover{
+    color: blueviolet;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+
+.footer-upper .contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-upper .contact .contact-1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+
+.footer-upper .contact .location-link{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.footer-upper .contact .location-link a{
+    font-size: 16px;
+    color: white;
+    display: flex;
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer-upper .contact .location-link a i{
+    background-color: rgb(255, 102, 0);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-upper .contact .location-link a i:hover{
+    background-color: white;
+    color: rgb(255, 102, 0);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-upper .contact .location-link .location{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-upper .contact .location-link .location .location-heading{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.footer-upper .contact .location-link .location span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.footer-upper .contact .phone-link{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.footer-upper .contact .phone-link a{
+    font-size: 16px;
+    color: white;
+    display: flex;
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer-upper .contact .phone-link a i{
+    background-color: rgb(255, 102, 0);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-upper .contact .phone-link a i:hover{
+    background-color: white;
+    color: rgb(255, 102, 0);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-upper .contact .phone-link .phone{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-upper .contact .phone-link .phone .phone-heading{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.footer-upper .contact .phone-link .phone span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+
+.footer-upper .contact .email-link{
+    display: flex;
+}
+
+
+.footer-upper .contact .email-link a{
+    font-size: 16px;
+    display: flex;
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer-upper .contact .email-link a i{
+    background-color: rgb(255, 102, 0);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer-upper .contact .email-link a i:hover{
+    background-color: white;
+    color: rgb(255, 102, 0);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-upper .contact .email-link .email{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-upper .contact .email-link .email .email-heading{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+.footer-upper .contact .email-link .email span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    font-family: "Poppins", serif;
+}
+
+footer .footer-lower{
+    padding: 22px 0 22px 0;
+}
+
+footer .footer-lower .copyright{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+}
+
+footer .footer-lower .copyright a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+/* ------- end of footer ------- */

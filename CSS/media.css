@@ -1,0 +1,3094 @@
+
+@media screen and (max-width:1399px) {
+    .swiper-content-text-1 .top-deal{
+        font-size: 48px;
+    }
+
+  .swiper-content-text-1 h1{
+        font-size: 62px;
+    }
+
+    .swiper-content-text-1 h1 .styles{
+        font-size: 35px;
+    }
+
+    .swiper-content-text-1 .best-heading{
+        font-size: 21px;
+    }
+
+    .swiper-content-text-1 .last-deal{
+        font-size: 21px;
+    }
+
+    .swiper-content-text-1 .last-deal sup{
+        font-size: 14px;
+    }
+
+    .swiper-content-text-1 .swiper-btn a{
+        font-size: 16px;
+    }
+
+    .swiper-content-text-2 .offer-date{
+        font-size: 21px;
+    }
+
+    .swiper-content-text-2 .off{
+        font-size: 60px;
+    }
+
+    .swiper-content-text-2 h2{
+        font-size: 38px;
+    }
+
+    .swiper-content-text-2 .offer-off{
+        font-size: 30px;
+    }
+
+    .swiper-content-text-2 .off span{
+        font-size: 27px;
+    }
+
+    .swiper-content-text-2 .wish{
+        font-size: 21px;
+    }
+
+
+    .swiper-content-text-2 .swiper-btn a{
+        font-size: 15px;
+    }
+
+    .swiper-content-text-3 h3{
+        font-size: 40px;
+    }
+
+    .swiper-content-text-3 h3 span{
+        font-size: 60px;
+    }
+
+    .swiper-content-text-3 .sale-heading{
+        font-size: 50px;
+    }
+
+    .swiper-content-text-3 .midnight-sale{
+        font-size: 40px;
+    }
+
+
+    .swiper-content-text-3 .midnight-sale span{
+        font-size: 30px;
+    }
+
+
+    .swiper-content-text-3 .sale-date{
+        font-size: 21px;
+    }
+
+    .swiper-content-text-3 .swiper-btn a{
+        font-size: 15px;
+    }
+
+
+    .swiper-content-text-4 .wish-heading{
+        font-size: 45px;
+    }
+
+    .swiper-content-text-4 .holiday{
+        font-size: 30px;
+    }
+
+    .swiper-content-text-4 .holiday span{
+        font-size: 30px;
+    }
+
+    .swiper-content-text-4 h4{
+        font-size: 60px;
+    }
+
+    .swiper-content-text-4 .wish-heading span{
+        font-size: 25px;
+    }
+
+    .swiper-content-text-4 .wish-heading span sup{
+        font-size: 14px;
+    }
+
+
+    .swiper-content-text-4 h4 span{
+        font-size: 21px;
+    }
+
+    .swiper-content-text-4 .swiper-btn a{
+        font-size: 15px;
+    }
+
+    .menswear .menswear-text h1{
+        font-size: 55px;
+    }
+
+    .mens-wear span{
+        font-size: 24px;
+    }
+
+    .mens-wear h2{
+        font-size: 48px;
+    }
+
+    .mens-category .mens-category-text .mens-heading{
+        font-size: 25px;
+    }
+
+    .mens-category .mens-card .mens-text .mens-title{
+        font-size: 20px;
+    }
+
+    .mens-category .mens-card .mens-text .price{
+        font-size: 16px;
+    }
+
+    .mens-category .mens-card .mens-text span{
+        font-size: 15px;
+    }
+
+    .womenswear .womenswear-text h1{
+        font-size: 55px;
+    }
+
+    .womenswear span{
+        font-size: 24px;
+    }
+
+    .womenswear h2{
+        font-size: 48px;
+    }
+
+    .womens-category .womens-category-text .womens-heading{
+        font-size: 25px;
+    }
+
+    .womens-category .womens-card .womens-text .womens-title{
+        font-size: 20px;
+    }
+
+    .womens-category .womens-card .womens-text .price{
+        font-size: 16px;
+    }
+
+    .womens-category .womens-card .womens-text span{
+        font-size: 15px;
+    }
+
+    .kidswear .kidswear-text h1{
+        font-size: 55px;
+    }
+
+    .kids-wear span{
+        font-size: 24px;
+    }
+
+    .kids-wear h2{
+        font-size: 48px;
+    }
+
+    .kids-category .kids-category-text .kids-heading{
+        font-size: 25px;
+    }
+
+    .kids-category .kids-card .kids-text .kids-title{
+        font-size: 20px;
+    }
+
+    .kids-category .kids-card .kids-text .price{
+        font-size: 16px;
+    }
+
+    .kids-category .kids-card .kids-text span{
+        font-size: 15px;
+    }
+
+
+    .mensfootwear .mensfootwear-text h1{
+        font-size: 55px;
+    }
+
+    .mensfootwear-title span{
+        font-size: 24px;
+    }
+
+    .mensfootwear-title h2{
+        font-size: 48px;
+    }
+
+    .mensfootwear-category .mensfootwear-category-text .mensfootwear-heading{
+        font-size: 25px;
+    }
+
+    .mensfootwear-category .mensfootwear-card .mensfootwear-text .mensfootwear-title{
+        font-size: 20px;
+    }
+
+    .mensfootwear-category .mensfootwear-card .mensfootwear-text .price{
+        font-size: 16px;
+    }
+
+    .mensfootwear-category .mensfootwear-card .mensfootwear-text span{
+        font-size: 15px;
+    }
+
+
+    .womenfootwear .womenfootwear-text h1{
+        font-size: 55px;
+    }
+
+    .womenfootwear-title span{
+        font-size: 24px;
+    }
+
+    .womenfootwear-title h2{
+        font-size: 48px;
+    }
+
+    .womenfootwear-category .womenfootwear-category-text .womenfootwear-heading{
+        font-size: 25px;
+    }
+
+    .womenfootwear-category .womenfootwear-card .womenfootwear-text .womenfootwear-title{
+        font-size: 20px;
+    }
+
+    .womenfootwear-category .womenfootwear-card .womenfootwear-text .price{
+        font-size: 16px;
+    }
+
+    .womenfootwear-category .womenfootwear-card .womenfootwear-text span{
+        font-size: 15px;
+    }
+
+
+    .kidsfootwear .kidsfootwear-text h1{
+        font-size: 55px;
+    }
+
+    .kidsfootwear-title span{
+        font-size: 24px;
+    }
+
+    .kidsfootwear-title h2{
+        font-size: 48px;
+    }
+
+    .kidsfootwear-category .kidsfootwear-category-text .kidsfootwear-heading{
+        font-size: 25px;
+    }
+
+    .kidsfootwear-category .kidsfootwear-card .kidsfootwear-text .kidsfootwear-title{
+        font-size: 20px;
+    }
+
+    .kidsfootwear-category .kidsfootwear-card .kidsfootwear-text .price{
+        font-size: 16px;
+    }
+
+    .kidsfootwear-category .kidsfootwear-card .kidsfootwear-text span{
+        font-size: 15px;
+    }
+
+
+    .jewellery .jewellery-text h1{
+        font-size: 55px;
+    }
+
+    .jewellery-title span{
+        font-size: 24px;
+    }
+
+    .jewellery-title h2{
+        font-size: 48px;
+    }
+
+    .jewellery-category .jewellery-category-text .jewellery-heading{
+        font-size: 25px;
+    }
+
+    .jewellery-category .jewellery-card .jewellery-text .jewellery-title{
+        font-size: 20px;
+    }
+
+    .jewellery-category .jewellery-card .jewellery-text .price{
+        font-size: 16px;
+    }
+
+    .jewellery-category .jewellery-card .jewellery-text span{
+        font-size: 15px;
+    }
+
+
+    .beautymakeup .beautymakeup-text h1{
+        font-size: 55px;
+    }
+
+    .beautymakeup-title span{
+        font-size: 24px;
+    }
+
+    .beautymakeup-title h2{
+        font-size: 48px;
+    }
+
+    .beautymakeup-category .beautymakeup-category-text .beautymakeup-heading{
+        font-size: 25px;
+    }
+
+    .beautymakeup-category .beautymakeup-card .beautymakeup-text .beautymakeup-title{
+        font-size: 20px;
+    }
+
+    .beautymakeup-category .beautymakeup-card .beautymakeup-text .price{
+        font-size: 16px;
+    }
+
+    .beautymakeup-category .beautymakeup-card .beautymakeup-text span{
+        font-size: 15px;
+    }
+
+
+    .officewear .officewear-text h1{
+        font-size: 35px;
+    }
+
+    .officewear-title span{
+        font-size: 50px;
+    }
+
+    .officewear-title h2{
+        font-size: 48px;
+    }
+
+    .officewear-category .officewear-category-text .officewear-heading{
+        font-size: 25px;
+    }
+
+    .officewear-category .officewear-card .officewear-text .officewear-title{
+        font-size: 20px;
+    }
+
+    .officewear-category .officewear-card .officewear-text .price{
+        font-size: 16px;
+    }
+
+    .officewear-category .officewear-card .officewear-text span{
+        font-size: 15px;
+    }
+
+    .beltwallet .beltwallet-text h1{
+        font-size: 35px;
+    }
+
+    .beltwallet-title span{
+        font-size: 50px;
+    }
+
+    .beltwallet-title h2{
+        font-size: 48px;
+    }
+
+    .beltwallet-category .beltwallet-category-text .beltwallet-heading{
+        font-size: 25px;
+    }
+
+    .beltwallet-category .beltwallet-card .beltwallet-text .beltwallet-title{
+        font-size: 20px;
+    }
+
+    .beltwallet-category .beltwallet-card .beltwallet-text .price{
+        font-size: 16px;
+    }
+
+    .beltwallet-category .beltwallet-card .beltwallet-text span{
+        font-size: 15px;
+    }
+
+
+    .casual .casual-text h1{
+        font-size: 35px;
+    }
+
+    .casual-title span{
+        font-size: 50px;
+    }
+
+    .casual-title h2{
+        font-size: 48px;
+    }
+
+    .casual-category .casual-category-text .casual-heading{
+        font-size: 25px;
+    }
+
+    .casual-category .casual-card .casual-text .casual-title{
+        font-size: 20px;
+    }
+
+    .casual-category .casual-card .casual-text .price{
+        font-size: 16px;
+    }
+
+    .casual-category .casual-card .casual-text span{
+        font-size: 15px;
+    }
+
+
+    .watch .watch-text h1{
+        font-size: 55px;
+    }
+
+    .watch-title span{
+        font-size: 24px;
+    }
+
+    .watch-title h2{
+        font-size: 48px;
+    }
+
+    .watch-category .watch-category-text .watch-heading{
+        font-size: 25px;
+    }
+
+    .watch-category .watch-card .watch-text .beautymakeup-title{
+        font-size: 20px;
+    }
+
+    .watch-category .watch-card .watch-text .price{
+        font-size: 16px;
+    }
+
+    .watch-category .watch-card .watch-text span{
+        font-size: 15px;
+    }
+
+
+    .categories .categories-text h2{
+        font-size: 42px;
+    }
+
+    
+.categories .categories-card .categories-content .categories-content-text .categories-heading{
+    font-size: 21px;
+}
+
+.categories .categories-card .categories-content .categories-content-text span{
+    font-size: 16px;
+}
+
+.categories .categories-card .categories-content .categories-content-text .categories-btn a{
+    font-size: 16px;
+}
+
+.shipping  .arrive{
+    font-size: 40px;
+}
+
+
+.brands .brands-heading-title h2{
+    font-size: 38px;
+}
+
+.brands .brands-customer-1 h2{
+    font-size: 25px;
+}
+
+.brands .brands-customer-2 h2{
+    font-size: 38px;
+}
+
+.collection .collection-heading span{
+    font-size: 20px;
+}
+
+.collection .collection-heading h2{
+    font-size: 40px;
+}
+
+.collection .collection-card .collection-text .collection-content{
+    font-size: 21px;
+}
+
+.collection .collection-card .collection-text .collection-btn a{
+    font-size: 15px;
+}
+
+.policy .policy-heading h2{
+    font-size: 38px;
+}
+
+.testimonial .testimonial-heading h2{
+    font-size: 38px;
+}
+
+.testimonial .testimonial-heading h2 span{
+    font-size: 38px;
+}
+
+.subscribe .subscribe-text h3{
+    font-size: 38px;
+}
+
+.footer-upper .inform span{
+    font-size: 21px;
+}
+
+.footer-upper .quick-link span{
+    font-size: 21px;
+}
+
+
+}
+
+
+@media screen and (max-width:1199px) {
+    .sec-1 .confirm-box h1{
+        font-size: 40px;
+    }
+
+    .sec-1 .confirm-box p{
+        font-size: 20px;
+    }
+
+    .sec-1 h2{
+        font-size: 25px;
+    }
+
+
+    .swiper-content-text-1 .top-deal{
+        font-size: 38px;
+    }
+
+  .swiper-content-text-1 h1{
+        font-size: 50px;
+    }
+
+    .swiper-content-text-1 h1 .styles{
+        font-size: 28px;
+    }
+
+    .swiper-content-text-2 .off{
+        font-size: 50px;
+    }
+
+    .swiper-content-text-2 h2{
+        font-size: 30px;
+    }
+
+    .swiper-content-text-2 .offer-off{
+        font-size: 25px;
+    }
+
+
+    .swiper-content-text-3 h3{
+        font-size: 30px;
+    }
+
+    .swiper-content-text-3 h3 span{
+        font-size: 50px;
+    }
+
+    .swiper-content-text-3 .sale-heading{
+        font-size: 40px;
+    }
+
+    .swiper-content-text-3 .midnight-sale{
+        font-size: 30px;
+    }
+
+
+    .swiper-content-text-3 .midnight-sale span{
+        font-size: 25px;
+    }
+
+    .swiper-content-text-4 .wish-heading{
+        font-size: 38px;
+    }
+
+    .swiper-content-text-4 .holiday{
+        font-size: 25px;
+    }
+
+    .swiper-content-text-4 .holiday span{
+        font-size: 25px;
+    }
+
+    .swiper-content-text-4 h4{
+        font-size: 50px;
+    }
+
+    .swiper-content-text-4 .wish-heading span{
+        font-size: 21px;
+    }
+
+    .menswear .menswear-text h1{
+        font-size: 45px;
+    }
+
+    .mens-wear span{
+        font-size: 20px;
+    }
+
+    .mens-wear h2{
+        font-size: 37px;
+    }
+
+    .mens-category .mens-category-text .mens-heading{
+        font-size: 21px;
+    }
+
+    .womenswear .womenswear-text h1{
+        font-size: 45px;
+    }
+
+    .womens-wear span{
+        font-size: 20px;
+    }
+
+    .womens-wear h2{
+        font-size: 37px;
+    }
+
+    .womens-category .womens-category-text .womens-heading{
+        font-size: 21px;
+    }
+
+    .kidswear .kidswear-text h1{
+        font-size: 45px;
+    }
+
+    .kidswear .kidswear-text h1 span{
+        font-size: 45px;
+    }
+
+    .kids-wear span{
+        font-size: 20px;
+    }
+
+    .kids-wear h2{
+        font-size: 37px;    
+    }
+
+    .kids-category .kids-category-text .kids-heading{
+        font-size: 21px;
+    }
+
+
+    .mensfootwear .mensfootwear-text h1{
+        font-size: 45px;
+    }
+
+    .mensfootwear .mensfootwear-text h1 span{
+        font-size: 45px;
+    }
+
+    .mensfootwear-title span{
+        font-size: 20px;
+    }
+
+    .mensfootwear-title h2{
+        font-size: 37px;    
+    }
+
+    .mensfootwear-category .mensfootwear-category-text .mensfootwear-heading{
+        font-size: 21px;
+    }
+
+
+    .womenfootwear .womenfootwear-text h1{
+        font-size: 45px;
+    }
+
+    .womenfootwear .womenfootwear-text h1 span{
+        font-size: 45px;
+    }
+
+    .womenfootwear-title span{
+        font-size: 20px;
+    }
+
+    .womenfootwear-title h2{
+        font-size: 37px;    
+    }
+
+    .womenfootwear-category .womenfootwear-category-text .womenfootwear-heading{
+        font-size: 21px;
+    }
+
+
+    .kidsfootwear .kidsfootwear-text h1{
+        font-size: 45px;
+    }
+
+    .kidsfootwear .kidsfootwear-text h1 span{
+        font-size: 45px;
+    }
+
+    .kidsfootwear-title span{
+        font-size: 20px;
+    }
+
+    .kidsfootwear-title h2{
+        font-size: 37px;    
+    }
+
+    .kidsfootwear-category .kidsfootwear-category-text .kidsfootwear-heading{
+        font-size: 21px;
+    }
+
+
+    .jewellery .jewellery-text h1{
+        font-size: 45px;
+    }
+
+    .jewellery .jewellery-text h1 span{
+        font-size: 45px;
+    }
+
+    .jewellery-title span{
+        font-size: 20px;
+    }
+
+    .jewellery-title h2{
+        font-size: 37px;    
+    }
+
+    .jewellery-category .jewellery-category-text .jewellery-heading{
+        font-size: 21px;
+    }
+
+
+    .beautymakeup .beautymakeup-text h1{
+        font-size: 25px;
+    }
+
+    .beautymakeup .beautymakeup-text h1 span{
+        font-size: 45px;
+    }
+
+    .beautymakeup-title span{
+        font-size: 20px;
+    }
+
+    .beautymakeup-title h2{
+        font-size: 37px;    
+    }
+
+    .beautymakeup-category .beautymakeup-category-text .beautymakeup-heading{
+        font-size: 21px;
+    }
+
+    .watches .watches-text h1{
+        font-size: 25px;
+    }
+
+    .watches .watches-text h1 span{
+        font-size: 45px;
+    }
+
+    .watches-title span{
+        font-size: 20px;
+    }
+
+    .watches-title h2{
+        font-size: 37px;    
+    }
+
+    .watches-category .watches-category-text .watches-heading{
+        font-size: 21px;
+    }
+
+
+    .officewear .officewear-text h1{
+        font-size: 38px;
+    }
+
+    .officewear .officewear-text h1 span{
+        font-size: 38px;
+    }
+
+    .officewear-title span{
+        font-size: 20px;
+    }
+
+    .officewear-title h2{
+        font-size: 37px;    
+    }
+
+    .officewear-category .officewear-category-text .officewear-heading{
+        font-size: 21px;
+    }
+
+    .beltwallet .beltwallet-text h1{
+        font-size: 38px;
+    }
+
+    .beltwallet .beltwallet-text h1 span{
+        font-size: 38px;
+    }
+
+    .beltwallet-title span{
+        font-size: 20px;
+    }
+
+    .beltwallet-title h2{
+        font-size: 37px;    
+    }
+
+    .beltwallet-category .beltwallet-category-text .beltwallet-heading{
+        font-size: 21px;
+    }
+
+
+    .sec-1 h2{
+        font-size: 30px;
+    }
+
+
+    .casual .casual-text h1{
+        font-size: 38px;
+    }
+
+    .casual .casual-text h1 span{
+        font-size: 38px;
+    }
+
+    .casual-title span{
+        font-size: 20px;
+    }
+
+    .casual-title h2{
+        font-size: 37px;    
+    }
+
+    .casual-category .casual-category-text .casual-heading{
+        font-size: 21px;
+    }
+
+    .categories .categories-text h2{
+        font-size: 35px;
+    }
+
+    .policy .policy-heading h2{
+        font-size: 32px;
+    }
+    
+    .testimonial .testimonial-heading h2{
+        font-size: 32px;
+    }
+    
+    .subscribe .subscribe-text h3{
+        font-size: 32px;
+    }
+
+    
+.brands .brands-heading-title h2{   
+    font-size: 32px;
+}
+
+.brands .brands-customer-1 h2{
+    font-size: 25px;
+}
+
+.brands .brands-customer-2 h2{
+    font-size: 25px;
+}
+
+.shipping  .arrive{
+    font-size: 35px;
+}
+
+.collection .collection-heading h2{
+    font-size: 34px;
+}
+
+.timer .heading{
+    font-size: 38px;
+}
+
+.timer .countdown-timer #timer li{
+    font-size: 30px;
+}
+
+.timer .countdown-timer #timer #h:after{
+    left: 75px;
+}
+
+.timer .countdown-timer #timer #m:after{
+    left: 78px;
+}
+
+.brands .brands-title .brands-text span{
+    font-size: 16px;
+}
+
+.shipping .shipping-title-text h3{
+    font-size: 38px;
+}
+
+}
+
+
+@media screen  and (max-width:1024px){
+    .nav-icons .login{
+        font-size: 15px;
+    }
+
+    .timer .timer-card .special-title .special-text-1{
+        font-size: 21px;
+    }
+
+    .timer .timer-card .special-title span{
+        font-size: 15px;
+    }
+
+    .timer .countdown-timer #timer #m:after{
+        left: 88px;
+    }
+
+    .timer .timer-style{
+        left: 65px;
+        bottom: 25%;
+    }
+
+    .timer .timer-style-1{
+        left: 30px;
+        bottom: 25%;
+    }
+
+
+    .timer .timer-style-2{
+        left: 78px;
+        bottom: 25%;
+    }
+
+    .testimonial .testimonial-heading h2{
+        font-size: 30px;
+    }
+    
+    .testimonial .testimonial-heading h2 span{
+        font-size: 30px;
+    }
+    
+
+.footer-upper .contact .location-link .location .location-heading{
+    font-size: 17px;
+}
+
+
+.footer-upper .contact .location-link .location span{
+    font-size: 14px;
+}
+
+.footer-upper .contact .phone-link .phone .phone-heading{
+    font-size: 17px;
+}
+
+
+.footer-upper .contact .phone-link .phone span{
+    font-size: 14px;
+}
+
+.footer-upper .contact .email-link .email .email-heading{
+    font-size: 17px;
+}
+
+.footer-upper .contact .email-link .email span{
+    font-size: 14px;
+}
+
+}
+
+
+@media screen  and (max-width:991px){
+    .navbar .container .nav-box .nav-icons .fa-bars{
+        display: block;
+        transition: all 0.4s ease;
+
+        &.fa-xmark{
+            transform: rotate(180deg);
+        }
+    }
+
+    .navbar .container .nav-box .menu-top .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        width: 100%;
+        top: 85px;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        transition: all 0.4s ease;
+        cursor: pointer;
+        background-color:orange;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        &.active{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+    }
+
+    .navbar{
+        padding: 0 0;
+    }
+
+    .navbar .container .nav-box .menu-top .nav-menu li{
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+        border-radius: 8px;
+    }
+
+    .navbar .container .nav-box .menu-top .nav-menu li a{
+          font-size: 16px;
+          color: white;
+          line-height: 2.5;
+    }
+
+    .navbar .container .nav-box .menu-top .nav-menu li{
+        border-bottom: 2px solid black;
+    }
+
+    
+    .dropdown{
+        border-bottom: 2px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+
+    .dropbtn{
+        font-size: 14px;
+        color: white;
+        padding: 10px 0px;
+    }
+
+    .navbar .nav-icons .cart-icons .add-cart .fa-solid{
+        right: 110px;
+    }
+
+    .dropdown{
+        padding-right: 0;
+    }
+
+
+    .confirmation .confirm-box h1{
+        font-size: 40px;
+    }
+
+    .confirmation .confirm-box p{
+        font-size: 20px;
+    }
+
+    .confirmation .container .row .col50{
+        max-width: 80%;
+        flex: 0 0 80%;
+    }
+
+
+
+    .swiper-content-text-1 .top-deal{
+        font-size: 30px;
+    }
+
+    .swiper-content-text-1 h1{
+        font-size: 40px;
+    }
+
+    .swiper-content-text-1 h1 .styles{
+        font-size: 22px;
+    }
+
+    .swiper-content-text-1 .best-heading{
+        font-size: 18px;
+    }
+
+    .swiper-content-text-2 .off{
+        font-size: 40px;
+    }
+
+    .swiper-content-text-2 h2{
+        font-size: 25px;
+    }
+
+    .swiper-content-text-2 .offer-off{
+        font-size: 21px;
+    }
+
+
+    .slider #myntra-deal-3{
+        padding: 210px 0 0 0 ;
+    }
+
+    .slider #swiper-img-3{
+        background-position: center left;
+    }
+    
+    .swiper-content-text-3 h3{
+        font-size: 21px;
+    }
+
+    .swiper-content-text-3 h3 span{
+        font-size: 40px;
+    }
+
+    .swiper-content-text-3 .sale-heading{
+        font-size: 30px;
+    }
+
+    .swiper-content-text-3 .midnight-sale{
+        font-size: 21px;
+    }
+
+
+    .swiper-content-text-3 .midnight-sale span{
+        font-size: 21px;
+    }
+
+    .swiper-content-text-4 .wish-heading{
+        font-size: 30px;
+    }
+
+    .swiper-content-text-4 h4{
+        font-size: 40px;
+    }
+
+    .swiper-content-text-4 .holiday{
+        font-size: 21px;
+    }
+
+    .swiper-content-text-4 .holiday span{
+        font-size: 21px;
+    }
+
+  .sec-1 form{
+    width: 90%;
+  }
+
+  .sec-1 h2{
+    font-size: 24px;
+  }
+
+ .sec-1{
+    .lab-1{
+        font-size: 18px;
+    }
+
+   .lab-2{
+    font-size: 18px;
+   }
+
+   .lab-3{
+    font-size: 18px; 
+   }
+
+   .lab-4{
+    font-size: 18px;
+   }
+  }
+
+    .mens-category .mens-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .womens-category .womens-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .kids-category .kids-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .mensfootwear-category .mensfootwear-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .womenfootwear-category .womenfootwear-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+
+    .kidsfootwear-category .kidsfootwear-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+
+    .jewellery-category .jewellery-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .beautymakeup-category .beautymakeup-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .watches-category .watches-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    
+    .beltwallet-category .beltwallet-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .officewear-category .officewear-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+     }
+
+    .casual-category .casual-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+
+
+    .categories .categories-text h2{
+        font-size: 30px;
+    }
+
+    .categories .categories-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .collection .collection-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .policy .policy-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .policy .policy-card #policy-1{
+        padding: 50px 30px;
+        margin-bottom: 30px;
+    }
+
+    .policy .policy-card #policy-2{
+        padding: 50px 30px;
+        margin-bottom: 30px;
+    }
+
+    .policy .policy-card #policy-3{
+        padding: 50px 30px;
+    }
+
+    .policy .policy-card #policy-4{
+        padding: 50px 30px;
+    }
+
+    .timer .timer-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 40px;
+    }
+
+    .timer .countdown-timer #timer li{
+        font-size: 25px;
+    }
+
+    .timer .countdown-timer #timer #m:after{
+        top: 5px;
+    }
+
+    .timer .special-text .limited{
+        font-size: 21px;
+    }
+
+    .timer .countdown-timer .deal-text{
+        font-size: 21px;
+    }
+
+    .timer .countdown-timer #timer #h:after{
+        top: 5px;
+        left: 60px;
+    }
+
+    .timer .timer-style{
+        left: 200px;
+        bottom: 25%;
+    }
+
+    .timer .timer-style-1{
+        left: 170px;
+        bottom: 25%;
+    }
+
+    .timer .timer-style-2{
+        left: 210px;
+        bottom: 25%;
+    }
+
+    .shipping .shipping-title-text h3{
+        font-size: 40px;
+    }
+
+    .shipping .shipping-title-text span{
+        font-size: 18px;
+    }
+
+    .shipping #shop-1{
+        left: 24%;
+    }
+
+    .shipping #shop-3{
+        left: 22%;
+    }
+
+    .shipping .shop-text  span{
+        font-size: 18px;
+    }
+
+    .shipping .shop-text p{
+        font-size: 15px;
+    }
+
+    footer .footer-upper .row .col30{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+
+    footer .footer-upper .row .col20{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .footer-upper .footer-text{
+        margin-bottom: 20px;
+    }
+
+    .footer-upper .inform{
+        margin-bottom: 20px;
+    }
+
+    .footer-upper .quick-link{
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+
+    .nav-top{
+        display: none;
+    }
+
+    .menswear{
+        background-position: center left;
+    }
+
+    .menswear .menswear-text{
+        padding-top: 150px;
+    }
+
+    .menswear .menswear-text h1{
+        font-size: 35px;
+    }
+
+    .mens-category .mens-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .womenswear{
+        background-position: center left;
+    }
+
+    .womenswear .womenswear-text{
+        padding-top: 150px;
+    }
+
+    .womenswear .womenswear-text h1{
+        font-size: 35px;
+    }
+
+    .womens-category .womens-category-row2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .womens-category .womens-category-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .mensfootwear{
+        background-position: center left;
+    }
+
+    .mensfootwear .mensfootwear-text{
+        padding-top: 350px;
+    }
+
+    .mensfootwear .mensfootwear-text h1{
+        font-size: 35px;
+    }
+
+    .mensfootwear .mensfootwear-text h1 span{
+        font-size: 35px;
+    }
+
+    .womenfootwear{
+        background-position: center left;
+    }
+
+    .womenfootwear .womenfootwear-text{
+        padding-top: 350px;
+    }
+
+    .womenfootwear .womenfootwear-text h1{
+        font-size: 35px;
+    }
+
+    .womenfootwear .womenfootwear-text h1 span{
+        font-size: 35px;
+    }
+
+    .kidsfootwear{
+        background-position: center left;
+    }
+
+    .kidsfootwear .kidsfootwear-text{
+        padding-top: 200px;
+    }
+
+    .kidsfootwear .kidsfootwear-text h1{
+        font-size: 35px;
+    }
+
+    .kidsfootwear .kidsfootwear-text h1 span{
+        font-size: 35px;
+    }
+
+    .jewellery{
+        background-position: center left;
+    }
+
+    .jewellery .jewellery-text{
+        padding-top: 200px;
+    }
+
+    .jewellery .jewellery-text h1{
+        font-size: 35px;
+    }
+
+    .jewellery .jewellery-text h1 span{
+        font-size: 35px;
+    }
+
+
+    .beautymakeup{
+        background-position: center left;
+    }
+
+    .beautymakeup .beautymakeup-text{
+        padding-top: 200px;
+    }
+
+    .beautymakeup .beautymakeup-text h1{
+        font-size: 35px;
+    }
+
+    .beautymakeup .beautymakeup-text h1 span{
+        font-size: 35px;
+    }
+
+
+    .watches{
+        background-position: center left;
+    }
+
+    .watches .watches-text{
+        padding-top: 500px;
+        justify-content: center;
+    }
+
+    .watches .watches-text h1{
+        font-size: 35px;
+    }
+
+    .watches .watches-text h1 span{
+        font-size: 35px;
+    }
+
+
+    .officewear{
+        background-position: center left;
+    }
+
+    .officewear .officewear-text{
+        padding-top: 500px;
+        justify-content: center;
+    }
+
+    .officewear .officewear-text h1{
+        font-size: 35px;
+    }
+
+    .officewear .officewear-text h1 span{
+        font-size: 35px;
+    }
+
+    .beltwallet{
+        min-height: 650px;
+        background-position: center left;
+    }
+
+    .beltwallet .beltwallet-text{
+        justify-content: center;
+    }
+
+    .beltwallet .beltwallet-text h1{
+        font-size: 35px;
+    }
+
+    .beltwallet .beltwallet-text h1 span{
+        font-size: 35px;
+    }
+
+
+    .casual{
+        min-height: 650px;
+        background-position: center left;
+    }
+
+    .casual .casual-text{
+        justify-content: center;
+    }
+
+    .casual .casual-text h1{
+        font-size: 35px;
+    }
+
+    .casual .casual-text h1 span{
+        font-size: 35px;
+    }
+
+    
+    .casual-category .casual-title h2{
+        font-size: 40px;
+    }
+
+
+    .slider{
+        padding: 0px 0 0 0;
+    }
+
+    .policy .policy-card #policy-3{
+        padding: 50px 30px;
+    }
+
+    .policy .policy-card .policy-text .policy-title p{
+        font-size: 15px;
+    }
+
+    .policy .policy-card .policy-text .policy-title span{
+        padding-bottom: 10px;
+    }
+
+    .subscribe .subscribe-text h3{
+        font-size: 32px;
+    }
+
+    .subscribe .subscribe-text p{
+        font-size: 15px;
+    }
+
+    .subscribe .subscribe-btn a{
+        font-size: 15px;
+        padding: 6px 30px;
+    }
+
+
+    .timer .timer-style{
+        left: 135px;
+    }
+
+    
+    .timer .timer-style-1{
+        left: 95px;
+    }
+
+    
+    .timer .timer-style-2{
+        left: 145px;
+    }
+
+    .shipping #shop-1{
+        left: 15%;
+    }
+
+    .shipping #shop-2{
+        top: 55px;
+        left: 8%;
+    }
+
+    .shipping #shop-3{
+        left: 15%;
+    }
+
+    footer .footer-lower .copyright{
+        font-size: 14px;
+    }
+
+    .shipping .shipping-title-text{
+        top: 110px;
+    }
+
+    .shipping .shipping-title-text h3{
+        font-size: 30px;
+    }
+
+    .shipping  .arrive{
+        font-size: 30px;
+    }
+
+    .shipping #shop-1{
+            background: none;
+    }
+
+    
+    .shipping #shop-2{
+        background: none;
+    }
+
+    
+    .shipping #shop-3{
+        background: none;
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    .navbar .container .nav-box .menu-top .nav-menu li a{
+        font-size: 14px;
+    }
+
+    .slider #myntra-deal{
+        padding: 310px 0 0 0px;
+    }
+
+    .swiper-content-text-1{
+        text-align: center;
+    }
+    
+    .swiper-content-text-1 .top-deal{
+        font-size: 25px;
+    }
+
+    .swiper-content-text-1 h1{
+        font-size: 35px;
+    }
+
+    .swiper-content-text-1 h1 .styles{
+        font-size: 18px;
+    }
+
+    .swiper-content-text-1 .best-heading{
+        font-size: 16px;
+    }
+
+    .swiper-content-text-2 .off{
+        font-size: 35px;
+    }
+
+    .swiper-content-text-2 h2{
+        font-size: 21px;
+    }
+
+    .swiper-content-text-2 .wish{
+        font-size: 17px;
+    }
+
+    .swiper-content-text-2 .offer-off{
+        font-size: 18px;
+    }
+
+    .swiper-content-text-3 h3 span{
+        color: orange;
+    }
+
+    .swiper-content-text-3 .midnight-sale{
+        color: orange;
+    }
+
+    .slider #buy-it{
+        padding: 360px 0 0 0 ;
+    }
+
+    .swiper-content-text-4 .wish-heading{
+        font-size: 25px;
+    }
+
+    .swiper-content-text-4 h4{
+        font-size: 30px;
+    }
+
+
+    .mens-category .mens-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mens-category .mens-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .menswear .menswear-text{
+        padding-top: 400px;
+        justify-content: center;
+    }
+
+    .menswear .menswear-text h1{
+        color: crimson;
+    }
+
+    .menswear .menswear-text h1 span{
+        color: crimson;
+    }
+
+    .mens-wear h2{
+        font-size: 30px;
+    }
+
+    .womens-category .womens-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .womens-category .womens-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .womenswear .womenswear-text{
+        padding-top: 600px;
+        justify-content: center;
+    }
+
+    .womenswear .womenswear-text h1{
+        font-size: 25px;
+        color: crimson;
+    }
+
+    .womenswear .womenswear-text h1 span{
+        color: crimson;
+        font-size: 25px;
+    }
+
+    .womens-wear h2{
+        font-size: 30px;
+    }
+
+   .womens-category .womens-wear span{
+        font-size: 22px;
+    }
+
+
+    .kids-category .kids-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kids-category .kids-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .kidswear .kidswear-text{
+        padding-top: 10px;
+        justify-content: center;
+    }
+
+    .kidswear .kidswear-text h1{
+        font-size: 25px;
+        color: crimson;
+    }
+
+    .kidswear .kidswear-text h1 span{
+        color: crimson;
+        font-size: 25px;
+    }
+
+    .kids-wear h2{
+        font-size: 30px;
+    }
+
+    
+   .kids-category .kids-wear span{
+        font-size: 22px;
+    }
+
+
+    .mensfootwear-category .mensfootwear-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mensfootwear-category .mensfootwear-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .mensfootwear .mensfootwear-text{
+        padding-top: 350px;
+        justify-content: center;
+    }
+
+    .mensfootwear .mensfootwear-text h1{
+        font-size: 25px;
+        color: crimson;
+    }
+
+    .mensfootwear .mensfootwear-text h1 span{
+        color: crimson;
+        font-size: 25px;
+    }
+
+    .mensfootwear-title h2{
+        font-size: 30px;
+    }
+
+   .mensfootwear-category .mensfootwear-title span{
+        font-size: 22px;
+    }
+
+    .womenfootwear-category .womenfootwear-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .womenfootwear-category .womenfootwear-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .womenfootwear .womenfootwear-text{
+        padding-top: 350px;
+        justify-content: center;
+    }
+
+    .womenfootwear .womenfootwear-text h1{
+        font-size: 25px;
+        color: white;
+    }
+
+    .womenfootwear .womenfootwear-text h1 span{
+        color: white;
+        font-size: 25px;
+    }
+
+    .womenfootwear-title h2{
+        font-size: 30px;
+    }
+
+    
+   .womenfootwear-category .womenfootwear-title span{
+        font-size: 22px;
+    }
+
+    .kidsfootwear-category .kidsfootwear-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kidsfootwear-category .kidsfootwear-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .kidsfootwear .kidsfootwear-text{
+        padding-top: 200px;
+        justify-content: center;
+    }
+
+    .kidsfootwear .kidsfootwear-text h1{
+        font-size: 25px;
+        color: white;
+    }
+
+    .kidsfootwear .kidsfootwear-text h1 span{
+        color: white;
+        font-size: 25px;
+    }
+
+    .kidsfootwear-title h2{
+        font-size: 30px;
+    }
+
+   .kidsfootwear-category .kidsfootwear-title span{
+        font-size: 22px;
+    }
+
+    .jewellery{
+        min-height: 600px;
+    }
+
+    .jewellery-category .jewellery-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jewellery-category .jewellery-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .jewellery .jewellery-text{
+        padding-top: 150px;
+        justify-content: center;
+    }
+
+    .jewellery .jewellery-text h1{
+        font-size: 25px;
+        color: white;
+    }
+
+    .jewellery .jewellery-text h1 span{
+        color: white;
+        font-size: 25px;
+    }
+
+    .jewellery-title h2{
+        font-size: 30px;
+    }
+
+   .jewellery-category .jewellery-title span{
+        font-size: 22px;
+    }
+
+
+    .beautymakeup{
+        min-height: 600px;
+    }
+
+    .beautymakeup-category .beautymakeup-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beautymakeup-category .beautymakeup-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .beautymakeup .beautymakeup-text{
+        padding-top: 150px;
+        justify-content: center;
+    }
+
+    .beautymakeup .beautymakeup-text h1{
+        font-size: 25px;
+        color: white;
+    }
+
+    .beautymakeup .beautymakeup-text h1 span{
+        color: white;
+        font-size: 25px;
+    }
+
+    .beautymakeup-title h2{
+        font-size: 30px;
+    }
+
+    
+   .beautymakeup-category .beautymakeup-title span{
+        font-size: 22px;
+    }
+
+
+    .watches{
+        min-height: 600px;
+    }
+
+    .watches-category .watches-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .watches-category .watches-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .watches .watches-text{
+        padding-top: 420px;
+        justify-content: center;
+    }
+
+    .watches .watches-text h1{
+        font-size: 25px;
+        color: white;
+    }
+
+    .watches .watches-text h1 span{
+        color: white;
+        font-size: 25px;
+    }
+
+    .watches-title h2{
+        font-size: 30px;
+    }
+
+   .watches-category .watches-title span{
+        font-size: 22px;
+    }
+
+
+    .officewear{
+        min-height: 600px;
+    }
+
+    .officewear-category .officewear-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .officewear-category .officewear-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .officewear .officewear-text{
+        padding-top: 420px;
+        justify-content: center;
+    }
+
+    .officewear .officewear-text h1{
+        font-size: 25px;
+        color: white;
+    }
+
+    .officewear .officewear-text h1 span{
+        color: white;
+        font-size: 25px;
+    }
+
+    .officewear-title h2{
+        font-size: 30px;
+    }
+
+   .officewear-category .officewear-title span{
+        font-size: 22px;
+    }
+
+
+
+    .beltwallet{
+        min-height: 600px;
+    }
+
+    .beltwallet-category .beltwallet-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beltwallet-category .beltwallet-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .beltwallet .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beltwallet .beltwallet-text{
+        margin-top: 20px;
+    }
+
+    .beltwallet .container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .beltwallet .beltwallet-text{
+        padding-top: 0px;
+        justify-content: center;
+    }
+
+    .beltwallet .beltwallet-text h1{
+        font-size: 25px;
+        color: white;
+    }
+
+    .beltwallet .beltwallet-text h1 span{
+        color: white;
+        font-size: 25px;
+    }
+
+    .beltwallet-title h2{
+        font-size: 30px;
+    }
+
+   .beltwallet-category .beltwallet-title span{
+        font-size: 22px;
+    }
+
+
+
+    .casual{
+        min-height: 600px;
+    }
+
+    .casual-category .casual-category-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .casual-category .casual-category-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .casual .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .casual .container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    
+    .casual .casual-text{
+        padding-top: 300px;
+        justify-content: center;
+    }
+
+    .casual .casual-text h1{
+        font-size: 25px;
+        color: white;
+    }
+
+    .casual .casual-text h1 span{
+        color: white;
+        font-size: 25px;
+    }
+
+   .casual-category .casual-title h2{
+        font-size: 30px;
+    }
+
+   .casual-category .casual-title span{
+        font-size: 22px;
+    }
+
+
+    .shipping .container .shipping-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shipping #shop-1{
+        background: none;
+        left: 35%;
+    }
+
+
+.shipping #shop-2{
+    background: none;
+    bottom: -200px;
+    left: 25%;
+}
+
+.categories .container .categories-row2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories .container .categories-row2 .col25{
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.collection .container .collection-row2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collection .container .collection-row2 .col25{
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+
+.shipping #shop-3{
+    background: none;
+    left: 35%;
+}
+
+    .shipping .container .shipping-row2 .col33{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    
+    .shipping .shipping-title-2{
+        margin-top: 20px;
+    }
+
+    .shipping .shipping-title-text h3{
+        font-size: 25px;
+    }
+
+    .shipping .shipping-title-text span{
+        display: none;
+    }
+
+    .shipping .shipping-title-text{
+        left: 20%;
+        top: 145px;
+    }
+
+    
+    .shipping .shipping-title-text p{
+        display: none;
+    }
+    
+
+    .timer .container .timer-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timer .countdown-timer #timer #h:after{
+        left: 70px;
+    }
+
+    .timer .heading{
+        font-size: 30px;
+    }
+
+    .timer .special-text h2{
+        font-size: 20px;
+    }
+
+    
+    .timer .special-text .limited{
+        font-size: 20px;
+    }
+
+    .timer .timer-style{
+        left: 170px;
+        bottom: 25%;
+    }
+
+    .timer .timer-style-1{
+        left: 130px;
+        bottom: 25%;
+    }
+
+
+    .timer .timer-style-2{
+        left: 178px;
+        bottom: 25%;
+    }
+
+
+    .timer .container .timer-row2 .col25{
+        max-width: 80%;
+        flex: 0 0 80%;
+    }
+
+    .brands .container .swiper-btn-1{
+        top: -100px;
+    }
+
+    .brands .container .swiper-btn-2{
+        display: none;
+    }
+
+    .brands .brands-title #brands-1{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-2{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-3{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-4{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-5{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-6{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-7{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-8{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-9{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-10{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-11{
+        min-height: 600px;
+    }
+
+    .brands .brands-title #brands-12{
+        min-height: 600px;
+    }
+
+    .footer-upper .inform span{
+        font-size: 20px;
+    }
+
+    .footer-upper .quick-link span{
+        font-size: 20px;
+    }
+
+    .footer-upper .contact .contact-1{
+        font-size: 20px;
+    }
+
+    .policy .container .policy-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .policy .container .policy-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 80%;
+    }
+
+    .policy .policy-card #policy-3{
+        margin-bottom: 30px;
+    }
+
+    .subscribe .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscribe .container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .subscribe .subscribe-text{
+        margin-top: 25px;
+    }
+
+    .subscribe .subscribe-text h3{
+        font-size: 25px;
+    }
+
+    .subscribe .subscribe-text .input-data ::placeholder{
+        font-weight: 500;
+    }
+
+    footer .footer-upper .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .footer-upper .container .row .col30{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .footer-upper .contact .location-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-upper .contact .phone-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-upper .contact .contact-1{
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+    .footer-upper .contact .email-link{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-upper .contact{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-upper .footer-text .footer-para{
+        text-align: center;
+    }
+
+    footer .footer-upper .container .row .col20{
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .footer-upper .footer-text .footer-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-upper .footer-text .footer-social-icons ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+
+    .confirmation .confirm-box h1{
+        font-size: 30px;
+    }
+
+    .confirmation .confirm-box p{
+        font-size: 18px;
+    }
+
+    .confirmation .container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .confirm-box a{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .sub-2{
+        margin-left: 20px;
+    }
+
+    .sub-1{
+        padding: 5px 20px;
+    }
+
+    .sec-1 h2{
+        font-size: 18px;
+    }
+
+    .sec-1 form{
+        width: 100%;
+    }
+
+    .swiper-content-text-1 h1{
+        font-size: 30px;
+    }
+
+    .swiper-content-text-1 .last-deal{
+        font-size: 18px;
+    }
+
+    .slider .slide-style1 #myntra-deal-2{
+        padding: 210px 0 0 0;
+    }
+
+    .swiper-content-text-2 {
+        text-align: center;
+    }
+    
+    .swiper-content-text-2 .off{
+        font-size: 28px;
+    }
+
+    .swiper-content-text-2 .off span{
+        font-size: 20px;
+    }
+
+    .swiper-content-text-3 h3 span{
+        font-size: 25px;
+    }
+
+    .swiper-content-text-3 .sale-heading{
+        font-size: 25px;
+    }
+
+    .mens-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mens-category .mens-category-text span{
+        text-align: center;
+    }
+
+    .womens-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .womens-category .womens-category-text span{
+        text-align: center;
+    }
+
+    .kids-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kids-category .kids-category-text span{
+        text-align: center;
+    }
+
+
+    .mensfootwear-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mensfootwear-category .mensfootwear-category-text span{
+        text-align: center;
+    }
+
+    .womenfootwear-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .womenfootwear-category .womenfootwear-category-text span{
+        text-align: center;
+    }
+
+
+    .kidsfootwear-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kidsfootwear-category .kidsfootwear-category-text span{
+        text-align: center;
+    }
+
+    .jewellery-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jewellery-category .jewellery-category-text span{
+        text-align: center;
+    }
+
+    .beautymakeup-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beautymakeup-category .beautymakeup-category-text span{
+        text-align: center;
+    }
+
+    .watches-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .watches-category .watches-category-text span{
+        text-align: center;
+    }
+
+
+    .officewear-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .officewear-category .officewear-category-text span{
+        text-align: center;
+    }
+
+
+    .beltwallet-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beltwallet-category .beltwallet-category-text span{
+        text-align: center;
+    }
+
+
+    .casual-heading-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .casual-category .casual-category-text span{
+        text-align: center;
+    }
+
+    .menu-dropdown{
+        margin-top: 15px;
+    }
+
+    .categories{
+        padding: 50px 0 30px 0;
+    }
+
+    .categories .categories-text{
+        margin-bottom: 40px;
+    }
+
+    .subscribe .subscribe-text h3{
+        font-size: 22px;
+    }
+
+    
+    footer .footer-lower .copyright{
+        font-size: 12px;
+    }
+
+    footer .footer-lower .copyright a{
+        font-size: 12px;
+    }
+
+    .footer-upper .footer-text .footer-social-icons ul li a{
+        height: 40px;
+        width: 40px;
+    }
+
+    .categories .categories-text h2{
+        font-size: 25px;
+    }
+
+    .shipping .shipping-title-text h3{
+        font-size: 20px;
+    }
+
+    .timer .timer-style{
+        left: 130px;
+        font-size: 20px;
+    }
+
+    .timer .timer-style-1{
+        left: 100px;
+        font-size: 20px;
+    }
+
+    .timer .timer-style-2{
+        left: 140px;
+        font-size: 20px;
+    }
+
+    .timer .countdown-timer #timer li{
+        font-size: 20px;
+    }
+
+    .timer .countdown-timer #timer #h:after{
+        left: 64px;
+    }
+
+    .timer .countdown-timer #timer #m:after{
+        left: 75px;
+    }
+
+    .timer .countdown-timer #timer #h span{
+        font-size: 20px;
+    }
+
+    .timer .countdown-timer #timer #m span{
+        font-size: 20px;
+    }
+
+    .timer .countdown-timer #timer #s span{
+        font-size: 20px;
+    }
+
+    .policy .policy-heading h2{
+        font-size: 28px;
+    }
+
+    .collection{
+        padding: 100px 0 40px 0;
+    }
+
+    .collection .collection-heading h2{
+        font-size: 30px;
+    }
+
+    .brands .container  .swiper-btn-1{
+        top: -90px;
+        left: 50%;
+    }
+
+    .brands .brands-heading-title{
+        margin-bottom: 20px;
+    }
+
+    .brands .brands-customer-2{
+        margin: 50px 0 30px 0;
+    }
+
+    .brands .brands-heading-title h2{
+        font-size: 25px;
+    }
+
+    .brands .brands-title .brands-text{
+        padding: 15px 0;
+    }
+
+    
+    footer .footer-lower .copyright a{
+        font-size: 14px;
+    }
+
+    .footer-upper .contact .phone-link a{
+        font-size: 14px;
+    }
+
+    .footer-upper .contact .phone-link .phone span{
+        font-size: 14px;
+    }
+
+    .footer-upper .contact .location-link .location span{
+        font-size: 14px;
+    }
+
+    .footer-upper .quick-link ul li a{
+        font-size: 14px;
+    }
+
+    .footer-upper .inform ul li a{
+        font-size: 14px;
+    }
+
+    .footer-upper .footer-text .footer-para{
+        font-size: 14px;
+    }
+
+    
+.footer-upper .contact .email-link .email span{
+    font-size: 14px;
+}
+
+}
+
+
+@media screen and (max-width:375px) {
+
+    .sub-2{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .menswear .menswear-text h1{
+        font-size: 24px;
+    }
+
+
+    .menswear .menswear-text h1 span{
+        font-size: 24px;
+    }
+
+    .womenswear .womenswear-text h1{
+        font-size: 24px;
+    }
+
+    .womenswear .womenswear-text h1 span{
+        font-size: 24px;
+    }
+
+
+    .kidswear .kidswear-text h1{
+        font-size: 24px;
+    }
+
+    .kidswear .kidswear-text h1 span{
+        font-size: 24px;
+    }
+
+    .mensfootwear .mensfootwear-text h1{
+        font-size: 24px;
+    }
+
+    .mensfootwear .mensfootwear-text h1 span{
+        font-size: 24px;
+    }
+
+    .womenfootwear .womenfootwear-text h1{
+        font-size: 24px;
+    }
+
+    .womenfootwear .womenfootwear-text h1 span{
+        font-size: 24px;
+    }
+
+
+    .kidsfootwear .kidsfootwear-text h1{
+        font-size: 24px;
+    }
+
+    .kidsfootwear .kidsfootwear-text h1 span{
+        font-size: 24px;
+    }
+
+    .jewellery .jewellery-text h1{
+        font-size: 24px;
+    }
+
+    .jewellery .jewellery-text h1 span{
+        font-size: 24px;
+    }
+
+
+    .beautymakeup .beautymakeup-text h1{
+        font-size: 24px;
+    }
+
+    .beautymakeup .beautymakeup-text h1 span{
+        font-size: 24px;
+    }
+
+
+    .watches .watches-text h1{
+        font-size: 24px;
+    }
+
+    .watches .watches-text h1 span{
+        font-size: 24px;
+    }
+
+    .beltwallet .beltwallet-text h1{
+        font-size: 24px;
+    }
+
+    .beltwallet .beltwallet-text h1 span{
+        font-size: 24px;
+    }
+
+
+    .officewear .officewear-text h1{
+        font-size: 24px;
+    }
+
+    .officewear .officewear-text h1 span{
+        font-size: 24px;
+    }
+
+    
+    .casual .casual-text h1{
+        font-size: 24px;
+    }
+
+    .casual .casual-text h1 span{
+        font-size: 24px;
+    }
+
+
+    .shipping .shipping-title-text h3{
+        font-size: 16px;
+    }
+
+    .shipping  .arrive{
+        font-size: 24px;
+    }
+
+    .shipping .shipping-title-text{
+        top: 110px;
+        left: 18%;
+    }
+
+    .shipping #shop-1{
+        left: 22%;
+    }
+
+    
+    .shipping #shop-2{
+        bottom: -280px;
+        left: 18%;
+    }
+
+    
+    .shipping #shop-3{
+        left: 23%;
+    }
+
+    .policy .policy-heading h2{
+        font-size: 22px;
+    }
+
+    
+    .timer .timer-style{
+        left: 100px;
+        bottom: 25%;
+    }
+
+    .timer .countdown-timer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .collection .collection-heading h2{
+        font-size: 24px;
+    }
+
+    .categories .categories-text h2{
+        font-size: 20px;
+    }
+
+    .categories .categories-card .categories-content .categories-content-text .categories-heading{
+        font-size: 18px;
+    }
+
+    .shipping #shop-2{
+        left: 6%;
+    }
+
+    .timer .countdown-timer #timer{
+        padding-left: 0;
+    }
+
+    .timer .timer-style-1{
+        left: 75px;
+        bottom: 25%;
+    }
+
+
+    .timer .timer-style-2{
+        left: 110px;
+        bottom: 25%;
+    }
+
+    .testimonial .testimonial-heading h2{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .timer .timer-style{
+        left: 80px;
+    }
+
+    .timer .timer-style-1{
+        left: 40px; 
+    }
+
+    .timer .timer-style-2{
+        left: 80px;  
+    }
+}

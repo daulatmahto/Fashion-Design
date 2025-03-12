@@ -1,0 +1,76 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- media queies link -->
+    <link rel="stylesheet" href="./CSS/media.css">
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- font awesome icons link -->
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-thin.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-solid.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-regular.css">
+        
+</head>
+<body>
+
+    <section class="sec-1">
+        <div class="container">
+            <div class="row">
+                <div class="col100">
+                    <form action="./confirmation.html" method="" onsubmit="return validate()">
+                        <h2>Register with us</h2>
+                        <div class="form-control">
+                            <div class="form-box">
+                                <label class="lab-1" for="username">Username:</label>
+                                <input class="in-1" type="text" id="username" placeholder="Enter UserName">
+                            </div>
+                            <p id="error-1"></p>
+                        </div>
+                        <div class="form-control">
+                            <div class="form-box">
+                                <label class="lab-2" for="email">Email:</label>
+                                <input class="in-1" type="email" id="email" placeholder="Enter Email">
+                            </div>
+                            <p id="error-2"></p>
+                        </div>
+                        <div class="form-control">
+                            <div class="form-box">
+                                <label class="lab-4" for="contact">Contact:</label>
+                                <input class="in-1" type="number" id="contact" placeholder="Enter Contact">
+                            </div>
+                            <p id="error-4"></p>
+                        </div>
+                        <div class="form-control">
+                            <div class="form-box pass-box">
+                                <label class="lab-3" for="password">Password:</label>
+                                <input class="in-1" type="password" id="password" placeholder="Enter Password">
+
+                              
+                            </div>
+                            <p id="error-3"></p>
+                        </div>
+                        <div class="form-control-butt">
+                            <input class="sub-1" type="submit" value="Register">
+                            <input class=" sub-2" type="reset" value="Clear">
+                        </div>
+                        <p id="message"></p>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
